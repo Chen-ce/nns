@@ -1,0 +1,514 @@
+# 标签定义
+# Tags definition for NNS v1
+
+tags:
+  # === IP 类型标识 ===
+  
+  # 原生IP（最重要！）
+  NativeIP:
+    display_en: "Native IP"
+    display_zh: "原生IP"
+    aliases:
+      - "native ip"
+      - "nativeip"
+      - "原生ip"
+      - "原生"
+      - "native"
+      - "住宅ip"
+      - "residential ip"
+  
+  # 数据中心IP
+  DataCenter:
+    display_en: "Datacenter"
+    display_zh: "数据中心"
+    aliases:
+      - "datacenter"
+      - "dc"
+      - "数据中心"
+      - "機房"
+      - "机房"
+      - "idc"
+  
+  # ISP
+  ISP:
+    display_en: "ISP"
+    display_zh: "ISP"
+    aliases:
+      - "isp"
+      - "运营商"
+      - "運營商"
+  
+  # 双ISP
+  DualISP:
+    display_en: "Dual ISP"
+    display_zh: "双ISP"
+    aliases:
+      - "dual isp"
+      - "dualisp"
+      - "双isp"
+      - "雙isp"
+      - "双线"
+      - "雙線"
+  
+  # 三网
+  TripleISP:
+    display_en: "Triple ISP"
+    display_zh: "三网"
+    aliases:
+      - "triple isp"
+      - "tripleisp"
+      - "三网"
+      - "三網"
+      - "三线"
+  
+  # 移动
+  Mobile:
+    display_en: "Mobile"
+    display_zh: "移动"
+    aliases:
+      - "mobile"
+      - "移动"
+      - "移動"
+      - "cm"
+      - "cmcc"
+  
+  # 联通
+  Unicom:
+    display_en: "Unicom"
+    display_zh: "联通"
+    aliases:
+      - "unicom"
+      - "联通"
+      - "聯通"
+      - "cu"
+      - "cucc"
+  
+  # 电信
+  Telecom:
+    display_en: "Telecom"
+    display_zh: "电信"
+    aliases:
+      - "telecom"
+      - "电信"
+      - "電信"
+      - "ct"
+      - "ctcc"
+  
+  # 广播IP
+  Broadcast:
+    display_en: "Broadcast"
+    display_zh: "广播"
+    aliases:
+      - "broadcast"
+      - "广播"
+      - "廣播"
+      - "广播ip"
+  
+  # === 流媒体解锁类 ===
+  
+  # Netflix
+  NF:
+    display_en: "Netflix"
+    display_zh: "奈飞"
+    aliases:
+      - "nf"
+      - "netflix"
+      - "奈飞"
+      - "網飛"
+      - "网飞"
+  
+  # Disney+
+  Disney:
+    display_en: "Disney+"
+    display_zh: "迪士尼"
+    aliases:
+      - "disney"
+      - "disney+"
+      - "disneyplus"
+      - "迪士尼"
+      - "d+"
+  
+  # HBO
+  HBO:
+    display_en: "HBO"
+    display_zh: "HBO"
+    aliases:
+      - "hbo"
+      - "hbo max"
+      - "hbomax"
+  
+  # YouTube Premium
+  YouTube:
+    display_en: "YouTube"
+    display_zh: "油管"
+    aliases:
+      - "youtube"
+      - "yt"
+      - "油管"
+      - "youtube premium"
+      - "ytb"
+  
+  # TVB
+  TVB:
+    display_en: "TVB"
+    display_zh: "无线"
+    aliases:
+      - "tvb"
+      - "无线"
+      - "無線"
+      - "tvb anywhere"
+  
+  # Bilibili
+  Bilibili:
+    display_en: "Bilibili"
+    display_zh: "哔哩哔哩"
+    aliases:
+      - "bilibili"
+      - "b站"
+      - "哔哩哔哩"
+      - "嗶哩嗶哩"
+      - "bili"
+  
+  # Amazon Prime
+  Prime:
+    display_en: "Prime Video"
+    display_zh: "Prime"
+    aliases:
+      - "prime"
+      - "amazon prime"
+      - "prime video"
+      - "亚马逊"
+  
+  # Hulu
+  Hulu:
+    display_en: "Hulu"
+    display_zh: "Hulu"
+    aliases:
+      - "hulu"
+  
+  # Spotify
+  Spotify:
+    display_en: "Spotify"
+    display_zh: "Spotify"
+    aliases:
+      - "spotify"
+      - "音乐"
+  
+  # Apple TV+
+  AppleTV:
+    display_en: "Apple TV+"
+    display_zh: "Apple TV+"
+    aliases:
+      - "apple tv"
+      - "appletv"
+      - "apple tv+"
+      - "atv"
+  
+  # Paramount+
+  Paramount:
+    display_en: "Paramount+"
+    display_zh: "Paramount+"
+    aliases:
+      - "paramount"
+      - "paramount+"
+  
+  # Peacock
+  Peacock:
+    display_en: "Peacock"
+    display_zh: "Peacock"
+    aliases:
+      - "peacock"
+  
+  # 流媒体通用
+  Streaming:
+    display_en: "Streaming"
+    display_zh: "流媒体"
+    aliases:
+      - "streaming"
+      - "流媒体"
+      - "流媒體"
+      - "解锁"
+      - "解鎖"
+      - "unlock"
+  
+  # === 地区特定服务 ===
+  
+  # 台湾服务
+  TW:
+    display_en: "TW Services"
+    display_zh: "台湾服务"
+    aliases:
+      - "tw"
+      - "台湾"
+      - "台灣"
+      - "台服"
+  
+  # 港澳服务
+  HK:
+    display_en: "HK Services"
+    display_zh: "港澳服务"
+    aliases:
+      - "hk"
+      - "港澳"
+      - "香港"
+      - "港服"
+  
+  # 日本服务
+  JP:
+    display_en: "JP Services"
+    display_zh: "日本服务"
+    aliases:
+      - "jp"
+      - "日本"
+      - "日服"
+  
+  # 韩国服务
+  KR:
+    display_en: "KR Services"
+    display_zh: "韩国服务"
+    aliases:
+      - "kr"
+      - "韩国"
+      - "韓國"
+      - "韩服"
+  
+  # 美国服务
+  US:
+    display_en: "US Services"
+    display_zh: "美国服务"
+    aliases:
+      - "us"
+      - "美国"
+      - "美國"
+      - "美服"
+  
+  # === AI 服务类 ===
+  
+  # ChatGPT
+  GPT:
+    display_en: "ChatGPT"
+    display_zh: "ChatGPT"
+    aliases:
+      - "gpt"
+      - "chatgpt"
+      - "openai"
+      - "gpt4"
+      - "gpt-4"
+      - "chat gpt"
+  
+  # Claude
+  Claude:
+    display_en: "Claude"
+    display_zh: "Claude"
+    aliases:
+      - "claude"
+      - "anthropic"
+  
+  # Gemini
+  Gemini:
+    display_en: "Gemini"
+    display_zh: "Gemini"
+    aliases:
+      - "gemini"
+      - "bard"
+      - "google ai"
+  
+  # === 社交媒体类 ===
+  
+  # TikTok
+  TikTok:
+    display_en: "TikTok"
+    display_zh: "TikTok"
+    aliases:
+      - "tiktok"
+      - "抖音"
+      - "tik tok"
+  
+  # Instagram
+  Instagram:
+    display_en: "Instagram"
+    display_zh: "Instagram"
+    aliases:
+      - "instagram"
+      - "ig"
+      - "ins"
+  
+  # Twitter/X
+  Twitter:
+    display_en: "Twitter"
+    display_zh: "推特"
+    aliases:
+      - "twitter"
+      - "x"
+      - "推特"
+  
+  # Facebook
+  Facebook:
+    display_en: "Facebook"
+    display_zh: "脸书"
+    aliases:
+      - "facebook"
+      - "fb"
+      - "脸书"
+      - "臉書"
+  
+  # WhatsApp
+  WhatsApp:
+    display_en: "WhatsApp"
+    display_zh: "WhatsApp"
+    aliases:
+      - "whatsapp"
+      - "wa"
+  
+  # Telegram
+  Telegram:
+    display_en: "Telegram"
+    display_zh: "电报"
+    aliases:
+      - "telegram"
+      - "tg"
+      - "电报"
+      - "電報"
+  
+  # === 特性标识类 ===
+  
+  # 游戏优化
+  Game:
+    display_en: "Gaming"
+    display_zh: "游戏"
+    aliases:
+      - "game"
+      - "gaming"
+      - "游戏"
+      - "遊戲"
+      - "游戏优化"
+      - "低延迟"
+  
+  # 4K 流媒体
+  4K:
+    display_en: "4K"
+    display_zh: "4K"
+    aliases:
+      - "4k"
+      - "uhd"
+      - "ultra hd"
+      - "高清"
+  
+  # 8K
+  8K:
+    display_en: "8K"
+    display_zh: "8K"
+    aliases:
+      - "8k"
+  
+  # 测试节点
+  Test:
+    display_en: "Test"
+    display_zh: "测试"
+    aliases:
+      - "test"
+      - "测试"
+      - "測試"
+      - "trial"
+  
+  # 免费节点
+  Free:
+    display_en: "Free"
+    display_zh: "免费"
+    aliases:
+      - "free"
+      - "免费"
+      - "免費"
+      - "trial"
+  
+  # 高级/Premium
+  Premium:
+    display_en: "Premium"
+    display_zh: "高级"
+    aliases:
+      - "premium"
+      - "高级"
+      - "高級"
+      - "vip"
+      - "pro"
+  
+  # 推荐
+  Recommend:
+    display_en: "Recommended"
+    display_zh: "推荐"
+    aliases:
+      - "recommend"
+      - "recommended"
+      - "推荐"
+      - "推薦"
+      - "hot"
+      - "热门"
+  
+  # 高速
+  Fast:
+    display_en: "Fast"
+    display_zh: "高速"
+    aliases:
+      - "fast"
+      - "高速"
+      - "极速"
+      - "極速"
+  
+  # 稳定
+  Stable:
+    display_en: "Stable"
+    display_zh: "稳定"
+    aliases:
+      - "stable"
+      - "稳定"
+      - "穩定"
+  
+  # 负载均衡
+  LoadBalance:
+    display_en: "Load Balance"
+    display_zh: "负载均衡"
+    aliases:
+      - "load balance"
+      - "loadbalance"
+      - "lb"
+      - "负载均衡"
+      - "負載均衡"
+  
+  # 故障转移
+  Failover:
+    display_en: "Failover"
+    display_zh: "故障转移"
+    aliases:
+      - "failover"
+      - "故障转移"
+      - "容错"
+  
+  # 实验性
+  Experimental:
+    display_en: "Experimental"
+    display_zh: "实验性"
+    aliases:
+      - "experimental"
+      - "实验"
+      - "實驗"
+      - "beta"
+  
+  # 维护中
+  Maintenance:
+    display_en: "Maintenance"
+    display_zh: "维护中"
+    aliases:
+      - "maintenance"
+      - "维护"
+      - "維護"
+      - "维护中"
+  
+  # 新节点
+  New:
+    display_en: "New"
+    display_zh: "新节点"
+    aliases:
+      - "new"
+      - "新"
+      - "新节点"
+      - "新增"

@@ -1,0 +1,513 @@
+{
+  "4K": {
+    "aliases": [
+      "4k",
+      "uhd",
+      "ultra hd",
+      "ultrahd",
+      "高清"
+    ],
+    "display_en": "4K",
+    "display_zh": "4K"
+  },
+  "8K": {
+    "aliases": [
+      "8k"
+    ],
+    "display_en": "8K",
+    "display_zh": "8K"
+  },
+  "AppleTV": {
+    "aliases": [
+      "apple tv",
+      "apple tv+",
+      "appletv",
+      "atv"
+    ],
+    "display_en": "Apple TV+",
+    "display_zh": "Apple TV+"
+  },
+  "Bilibili": {
+    "aliases": [
+      "b",
+      "bili",
+      "bilibili",
+      "b站",
+      "哔哩哔哩",
+      "嗶哩嗶哩"
+    ],
+    "display_en": "Bilibili",
+    "display_zh": "哔哩哔哩"
+  },
+  "Broadcast": {
+    "aliases": [
+      "broadcast",
+      "ip",
+      "广播",
+      "广播ip",
+      "廣播"
+    ],
+    "display_en": "Broadcast",
+    "display_zh": "广播"
+  },
+  "Claude": {
+    "aliases": [
+      "anthropic",
+      "claude"
+    ],
+    "display_en": "Claude",
+    "display_zh": "Claude"
+  },
+  "DataCenter": {
+    "aliases": [
+      "datacenter",
+      "dc",
+      "idc",
+      "数据中心",
+      "机房",
+      "機房"
+    ],
+    "display_en": "Datacenter",
+    "display_zh": "数据中心"
+  },
+  "Disney": {
+    "aliases": [
+      "d",
+      "d+",
+      "disney",
+      "disney+",
+      "disneyplus",
+      "迪士尼"
+    ],
+    "display_en": "Disney+",
+    "display_zh": "迪士尼"
+  },
+  "DualISP": {
+    "aliases": [
+      "dual isp",
+      "dualisp",
+      "isp",
+      "双isp",
+      "双线",
+      "雙isp",
+      "雙線"
+    ],
+    "display_en": "Dual ISP",
+    "display_zh": "双ISP"
+  },
+  "Experimental": {
+    "aliases": [
+      "beta",
+      "experimental",
+      "实验",
+      "實驗"
+    ],
+    "display_en": "Experimental",
+    "display_zh": "实验性"
+  },
+  "Facebook": {
+    "aliases": [
+      "facebook",
+      "fb",
+      "脸书",
+      "臉書"
+    ],
+    "display_en": "Facebook",
+    "display_zh": "脸书"
+  },
+  "Failover": {
+    "aliases": [
+      "failover",
+      "容错",
+      "故障转移"
+    ],
+    "display_en": "Failover",
+    "display_zh": "故障转移"
+  },
+  "Fast": {
+    "aliases": [
+      "fast",
+      "极速",
+      "極速",
+      "高速"
+    ],
+    "display_en": "Fast",
+    "display_zh": "高速"
+  },
+  "Free": {
+    "aliases": [
+      "free",
+      "trial",
+      "免費",
+      "免费"
+    ],
+    "display_en": "Free",
+    "display_zh": "免费"
+  },
+  "GPT": {
+    "aliases": [
+      "chat gpt",
+      "chatgpt",
+      "gpt",
+      "gpt-4",
+      "gpt4",
+      "openai"
+    ],
+    "display_en": "ChatGPT",
+    "display_zh": "ChatGPT"
+  },
+  "Game": {
+    "aliases": [
+      "game",
+      "gaming",
+      "低延迟",
+      "游戏",
+      "游戏优化",
+      "遊戲"
+    ],
+    "display_en": "Gaming",
+    "display_zh": "游戏"
+  },
+  "Gemini": {
+    "aliases": [
+      "bard",
+      "gemini",
+      "google ai",
+      "googleai"
+    ],
+    "display_en": "Gemini",
+    "display_zh": "Gemini"
+  },
+  "HBO": {
+    "aliases": [
+      "hbo",
+      "hbo max",
+      "hbomax"
+    ],
+    "display_en": "HBO",
+    "display_zh": "HBO"
+  },
+  "HK": {
+    "aliases": [
+      "hk",
+      "港服",
+      "港澳",
+      "香港"
+    ],
+    "display_en": "HK Services",
+    "display_zh": "港澳服务"
+  },
+  "Hulu": {
+    "aliases": [
+      "hulu"
+    ],
+    "display_en": "Hulu",
+    "display_zh": "Hulu"
+  },
+  "ISP": {
+    "aliases": [
+      "isp",
+      "运营商",
+      "運營商"
+    ],
+    "display_en": "ISP",
+    "display_zh": "ISP"
+  },
+  "Instagram": {
+    "aliases": [
+      "ig",
+      "ins",
+      "instagram"
+    ],
+    "display_en": "Instagram",
+    "display_zh": "Instagram"
+  },
+  "JP": {
+    "aliases": [
+      "jp",
+      "日服",
+      "日本"
+    ],
+    "display_en": "JP Services",
+    "display_zh": "日本服务"
+  },
+  "KR": {
+    "aliases": [
+      "kr",
+      "韓國",
+      "韩国",
+      "韩服"
+    ],
+    "display_en": "KR Services",
+    "display_zh": "韩国服务"
+  },
+  "LoadBalance": {
+    "aliases": [
+      "lb",
+      "load balance",
+      "loadbalance",
+      "負載均衡",
+      "负载均衡"
+    ],
+    "display_en": "Load Balance",
+    "display_zh": "负载均衡"
+  },
+  "Maintenance": {
+    "aliases": [
+      "maintenance",
+      "維護",
+      "维护",
+      "维护中"
+    ],
+    "display_en": "Maintenance",
+    "display_zh": "维护中"
+  },
+  "Mobile": {
+    "aliases": [
+      "cm",
+      "cmcc",
+      "mobile",
+      "移动",
+      "移動"
+    ],
+    "display_en": "Mobile",
+    "display_zh": "移动"
+  },
+  "NF": {
+    "aliases": [
+      "netflix",
+      "nf",
+      "奈飞",
+      "網飛",
+      "网飞"
+    ],
+    "display_en": "Netflix",
+    "display_zh": "奈飞"
+  },
+  "NativeIP": {
+    "aliases": [
+      "ip",
+      "native",
+      "native ip",
+      "nativeip",
+      "residential ip",
+      "residentialip",
+      "住宅ip",
+      "原生",
+      "原生ip"
+    ],
+    "display_en": "Native IP",
+    "display_zh": "原生IP"
+  },
+  "New": {
+    "aliases": [
+      "new",
+      "新",
+      "新增",
+      "新节点"
+    ],
+    "display_en": "New",
+    "display_zh": "新节点"
+  },
+  "Paramount": {
+    "aliases": [
+      "paramount",
+      "paramount+"
+    ],
+    "display_en": "Paramount+",
+    "display_zh": "Paramount+"
+  },
+  "Peacock": {
+    "aliases": [
+      "peacock"
+    ],
+    "display_en": "Peacock",
+    "display_zh": "Peacock"
+  },
+  "Premium": {
+    "aliases": [
+      "premium",
+      "pro",
+      "vip",
+      "高級",
+      "高级"
+    ],
+    "display_en": "Premium",
+    "display_zh": "高级"
+  },
+  "Prime": {
+    "aliases": [
+      "amazon prime",
+      "amazonprime",
+      "prime",
+      "prime video",
+      "primevideo",
+      "亚马逊"
+    ],
+    "display_en": "Prime Video",
+    "display_zh": "Prime"
+  },
+  "Recommend": {
+    "aliases": [
+      "hot",
+      "recommend",
+      "recommended",
+      "推荐",
+      "推薦",
+      "热门"
+    ],
+    "display_en": "Recommended",
+    "display_zh": "推荐"
+  },
+  "Spotify": {
+    "aliases": [
+      "spotify",
+      "音乐"
+    ],
+    "display_en": "Spotify",
+    "display_zh": "Spotify"
+  },
+  "Stable": {
+    "aliases": [
+      "stable",
+      "稳定",
+      "穩定"
+    ],
+    "display_en": "Stable",
+    "display_zh": "稳定"
+  },
+  "Streaming": {
+    "aliases": [
+      "streaming",
+      "unlock",
+      "流媒体",
+      "流媒體",
+      "解鎖",
+      "解锁"
+    ],
+    "display_en": "Streaming",
+    "display_zh": "流媒体"
+  },
+  "TVB": {
+    "aliases": [
+      "tvb",
+      "tvb anywhere",
+      "tvbanywhere",
+      "无线",
+      "無線"
+    ],
+    "display_en": "TVB",
+    "display_zh": "无线"
+  },
+  "TW": {
+    "aliases": [
+      "tw",
+      "台服",
+      "台湾",
+      "台灣"
+    ],
+    "display_en": "TW Services",
+    "display_zh": "台湾服务"
+  },
+  "Telecom": {
+    "aliases": [
+      "ct",
+      "ctcc",
+      "telecom",
+      "电信",
+      "電信"
+    ],
+    "display_en": "Telecom",
+    "display_zh": "电信"
+  },
+  "Telegram": {
+    "aliases": [
+      "telegram",
+      "tg",
+      "电报",
+      "電報"
+    ],
+    "display_en": "Telegram",
+    "display_zh": "电报"
+  },
+  "Test": {
+    "aliases": [
+      "test",
+      "trial",
+      "测试",
+      "測試"
+    ],
+    "display_en": "Test",
+    "display_zh": "测试"
+  },
+  "TikTok": {
+    "aliases": [
+      "tik tok",
+      "tiktok",
+      "抖音"
+    ],
+    "display_en": "TikTok",
+    "display_zh": "TikTok"
+  },
+  "TripleISP": {
+    "aliases": [
+      "triple isp",
+      "tripleisp",
+      "三網",
+      "三线",
+      "三网"
+    ],
+    "display_en": "Triple ISP",
+    "display_zh": "三网"
+  },
+  "Twitter": {
+    "aliases": [
+      "twitter",
+      "x",
+      "推特"
+    ],
+    "display_en": "Twitter",
+    "display_zh": "推特"
+  },
+  "US": {
+    "aliases": [
+      "us",
+      "美国",
+      "美國",
+      "美服"
+    ],
+    "display_en": "US Services",
+    "display_zh": "美国服务"
+  },
+  "Unicom": {
+    "aliases": [
+      "cu",
+      "cucc",
+      "unicom",
+      "联通",
+      "聯通"
+    ],
+    "display_en": "Unicom",
+    "display_zh": "联通"
+  },
+  "WhatsApp": {
+    "aliases": [
+      "wa",
+      "whatsapp"
+    ],
+    "display_en": "WhatsApp",
+    "display_zh": "WhatsApp"
+  },
+  "YouTube": {
+    "aliases": [
+      "youtube",
+      "youtube premium",
+      "youtubepremium",
+      "yt",
+      "ytb",
+      "油管"
+    ],
+    "display_en": "YouTube",
+    "display_zh": "油管"
+  }
+}

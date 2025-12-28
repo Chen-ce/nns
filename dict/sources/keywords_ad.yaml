@@ -1,0 +1,106 @@
+# 广告/频道关键词
+# Advertising and channel keywords for filtering promotional content
+
+# 这些模式用于识别广告、频道推广等内容
+# 匹配到这些模式的行应该被过滤掉，不作为节点处理
+
+patterns:
+  # Telegram 相关
+  - "TG频道"
+  - "TG頻道"
+  - "telegram"
+  - "t\\.me/"
+  - "@[a-zA-Z0-9_]+"  # @username 格式
+  - "tg群"
+  - "电报"
+  - "電報"
+  
+  # 官网/网站
+  - "官网"
+  - "官網"
+  - "official website"
+  - "website"
+  - "网址"
+  - "網址"
+  - "https?://"  # URL 链接
+  - "www\\."
+  - "\\.com"
+  - "\\.net"
+  - "\\.org"
+  
+  # 订阅相关
+  - "订阅"
+  - "訂閱"
+  - "subscribe"
+  - "subscription"
+  - "订阅链接"
+  - "訂閱鏈接"
+  - "订阅地址"
+  - "sub link"
+  
+  # 群组/社区
+  - "交流群"
+  - "用户群"
+  - "用戶群"
+  - "group"
+  - "community"
+  - "discord"
+  - "qq群"
+  - "QQ群"
+  - "微信群"
+  
+  # 推广内容
+  - "推荐"
+  - "推薦"
+  - "recommend"
+  - "优惠"
+  - "優惠"
+  - "discount"
+  - "promotion"
+  - "邀请码"
+  - "邀請碼"
+  - "invite code"
+  - "aff"
+  - "affiliate"
+  - "返利"
+  - "rebate"
+  - "佣金"
+  
+  # 客服/联系
+  - "客服"
+  - "contact"
+  - "support"
+  - "联系"
+  - "聯繫"
+  - "咨询"
+  - "諮詢"
+  
+  # 公告
+  - "公告"
+  - "notice"
+  - "announcement"
+  - "通知"
+  - "维护"
+  - "維護"
+  - "maintenance"
+  
+  # 支付/购买
+  - "购买"
+  - "購買"
+  - "buy"
+  - "purchase"
+  - "支付"
+  - "payment"
+  - "充值"
+  - "recharge"
+  - "续费"
+  - "續費"
+  
+  # 社交媒体
+  - "twitter"
+  - "facebook"
+  - "youtube"
+  - "instagram"
+  - "推特"
+  - "脸书"
+  - "油管"

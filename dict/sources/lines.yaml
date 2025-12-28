@@ -1,0 +1,197 @@
+# 线路类型定义
+# Line types definition for NNS v1
+
+lines:
+  # 专线类型
+  IEPL:
+    display_en: "IEPL"
+    display_zh: "专线"
+    aliases:
+      - "iepl"
+      - "专线"
+      - "內網專線"
+      - "内网专线"
+      - "企业专线"
+  
+  IPLC:
+    display_en: "IPLC"
+    display_zh: "国际专线"
+    aliases:
+      - "iplc"
+      - "国际专线"
+      - "國際專線"
+      - "国际线路"
+  
+  # 直连类型
+  Direct:
+    display_en: "Direct"
+    display_zh: "直连"
+    aliases:
+      - "direct"
+      - "直连"
+      - "直連"
+  
+  # 中转类型
+  Relay:
+    display_en: "Relay"
+    display_zh: "中转"
+    aliases:
+      - "relay"
+      - "中转"
+      - "中轉"
+      - "转发"
+      - "轉發"
+  
+  # BGP 线路
+  BGP:
+    display_en: "BGP"
+    display_zh: "BGP"
+    aliases:
+      - "bgp"
+      - "多线"
+      - "多線"
+  
+  # CN2 线路
+  CN2:
+    display_en: "CN2 GIA"
+    display_zh: "CN2"
+    aliases:
+      - "cn2"
+      - "cn2 gia"
+      - "cn2gia"
+      - "gia"
+  
+  # 沪日线路
+  HUJP:
+    display_en: "Shanghai-Tokyo"
+    display_zh: "沪日"
+    aliases:
+      - "hujp"
+      - "沪日"
+      - "滬日"
+      - "上海-日本"
+  
+  # 广港线路  
+  GZHK:
+    display_en: "Guangzhou-HK"
+    display_zh: "广港"
+    aliases:
+      - "gzhk"
+      - "广港"
+      - "廣港"
+      - "广州-香港"
+  
+  # 游戏专线
+  Game:
+    display_en: "Game"
+    display_zh: "游戏"
+    aliases:
+      - "game"
+      - "游戏"
+      - "遊戲"
+      - "游戏专线"
+  
+  # === 以下是扩充内容 ===
+  
+  # 移动 CMI
+  CMI:
+    display_en: "CMI"
+    display_zh: "移动"
+    aliases:
+      - "cmi"
+      - "移动"
+      - "移動"
+      - "china mobile"
+      - "cm"
+  
+  # 联通 CUII
+  CUII:
+    display_en: "CU"
+    display_zh: "联通"
+    aliases:
+      - "cuii"
+      - "cu"
+      - "联通"
+      - "聯通"
+      - "china unicom"
+  
+  # AS9929 联通精品网
+  AS9929:
+    display_en: "AS9929"
+    display_zh: "联通9929"
+    aliases:
+      - "as9929"
+      - "9929"
+      - "联通9929"
+      - "聯通9929"
+      - "cu9929"
+  
+  # AS4837 联通普通网
+  AS4837:
+    display_en: "AS4837"
+    display_zh: "联通4837"
+    aliases:
+      - "as4837"
+      - "4837"
+      - "联通4837"
+      - "聯通4837"
+      - "cu4837"
+  
+  # 隧道/Tunnel
+  Tunnel:
+    display_en: "Tunnel"
+    display_zh: "隧道"
+    aliases:
+      - "tunnel"
+      - "隧道"
+      - "ssr"
+      - "v2ray"
+      - "trojan"
+  
+  # 家宽/原生IP
+  Home:
+    display_en: "Residential"
+    display_zh: "家宽"
+    aliases:
+      - "home"
+      - "residential"
+      - "家宽"
+      - "家寬"
+      - "住宅"
+      - "原生"
+      - "原生ip"
+      - "native"
+      - "native ip"
+  
+  # 商宽
+  Business:
+    display_en: "Business"
+    display_zh: "商宽"
+    aliases:
+      - "business"
+      - "商宽"
+      - "商寬"
+      - "企业"
+      - "企業"
+      - "商业ip"
+  
+  # 动态IP
+  Dynamic:
+    display_en: "Dynamic"
+    display_zh: "动态"
+    aliases:
+      - "dynamic"
+      - "动态"
+      - "動態"
+      - "动态ip"
+  
+  # 静态IP
+  Static:
+    display_en: "Static"
+    display_zh: "静态"
+    aliases:
+      - "static"
+      - "静态"
+      - "靜態"
+      - "静态ip"
+      - "固定ip"

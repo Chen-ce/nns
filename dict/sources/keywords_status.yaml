@@ -1,0 +1,83 @@
+# 状态行关键词
+# Status line keywords for filtering non-node content
+
+# 这些模式用于识别流量、到期时间等状态信息行
+# 匹配到这些模式的行应该被过滤掉，不作为节点处理
+
+patterns:
+  # 流量相关
+  - "剩余.*流量"
+  - "剩餘.*流量"
+  - "已用.*流量"
+  - "总流量"
+  - "總流量"
+  - "上传.*下载"
+  - "上傳.*下載"
+  - "traffic"
+  - "upload.*download"
+  - "used.*total"
+  - "\\d+G.*\\d+G"  # 匹配 "5G/100G" 这样的格式
+  - "\\d+GB"
+  - "\\d+TB"
+  - "\\d+MB"
+  - "流量.*剩余"
+  - "流量.*已用"
+  - "bandwidth"
+  
+  # 到期时间相关
+  - "到期"
+  - "到期时间"
+  - "到期時間"
+  - "过期"
+  - "過期"
+  - "expire"
+  - "expiry"
+  - "valid until"
+  - "\\d{4}-\\d{2}-\\d{2}"  # 日期格式 YYYY-MM-DD
+  - "\\d{2}/\\d{2}/\\d{4}"  # 日期格式 MM/DD/YYYY
+  - "剩余.*天"
+  - "剩餘.*天"
+  - "days? left"
+  - "days? remaining"
+  
+  # 账户信息
+  - "账户"
+  - "帳戶"
+  - "account"
+  - "余额"
+  - "餘額"
+  - "balance"
+  - "套餐"
+  - "plan"
+  - "subscription"
+  - "会员"
+  - "會員"
+  - "membership"
+  - "vip"
+  
+  # 重置时间
+  - "重置"
+  - "reset"
+  - "renew"
+  - "更新"
+  - "renewal"
+  
+  # 速度/延迟
+  - "延迟"
+  - "延遲"
+  - "latency"
+  - "ping"
+  - "\\d+ms"
+  - "速度"
+  - "speed"
+  - "倍率"
+  
+  # 状态描述
+  - "在线"
+  - "离线"
+  - "online"
+  - "offline"
+  - "可用"
+  - "不可用"
+  - "available"
+  - "unavailable"

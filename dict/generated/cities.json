@@ -1,0 +1,1695 @@
+{
+  "AE": {
+    "Dubai": {
+      "name_en": "Dubai",
+      "name_zh": "迪拜",
+      "aliases": [
+        "dubai",
+        "dxb",
+        "迪拜"
+      ]
+    }
+  },
+  "AL": {
+    "Tirana": {
+      "name_en": "Tirana",
+      "name_zh": "地拉那",
+      "aliases": [
+        "tirana",
+        "地拉那"
+      ]
+    }
+  },
+  "AM": {
+    "Yerevan": {
+      "name_en": "Yerevan",
+      "name_zh": "埃里温",
+      "aliases": [
+        "yerevan",
+        "埃里温"
+      ]
+    }
+  },
+  "AO": {
+    "Luanda": {
+      "name_en": "Luanda",
+      "name_zh": "罗安达",
+      "aliases": [
+        "luanda",
+        "罗安达"
+      ]
+    }
+  },
+  "AR": {
+    "BuenosAires": {
+      "name_en": "Buenos Aires",
+      "name_zh": "布宜诺斯艾利斯",
+      "aliases": [
+        "buenos aires",
+        "buenosaires",
+        "布宜诺斯艾利斯"
+      ]
+    }
+  },
+  "AT": {
+    "Vienna": {
+      "name_en": "Vienna",
+      "name_zh": "维也纳",
+      "aliases": [
+        "vienna",
+        "维也纳"
+      ]
+    }
+  },
+  "AU": {
+    "Sydney": {
+      "name_en": "Sydney",
+      "name_zh": "悉尼",
+      "aliases": [
+        "syd",
+        "sydney",
+        "悉尼"
+      ]
+    },
+    "Melbourne": {
+      "name_en": "Melbourne",
+      "name_zh": "墨尔本",
+      "aliases": [
+        "melbourne",
+        "墨尔本"
+      ]
+    }
+  },
+  "AZ": {
+    "Baku": {
+      "name_en": "Baku",
+      "name_zh": "巴库",
+      "aliases": [
+        "baku",
+        "巴库"
+      ]
+    }
+  },
+  "BA": {
+    "Sarajevo": {
+      "name_en": "Sarajevo",
+      "name_zh": "萨拉热窝",
+      "aliases": [
+        "sarajevo",
+        "萨拉热窝"
+      ]
+    }
+  },
+  "BD": {
+    "Dhaka": {
+      "name_en": "Dhaka",
+      "name_zh": "达卡",
+      "aliases": [
+        "dhaka",
+        "达卡"
+      ]
+    }
+  },
+  "BE": {
+    "Brussels": {
+      "name_en": "Brussels",
+      "name_zh": "布鲁塞尔",
+      "aliases": [
+        "brussels",
+        "布鲁塞尔"
+      ]
+    }
+  },
+  "BG": {
+    "Sofia": {
+      "name_en": "Sofia",
+      "name_zh": "索非亚",
+      "aliases": [
+        "sofia",
+        "索非亚"
+      ]
+    }
+  },
+  "BH": {
+    "Manama": {
+      "name_en": "Manama",
+      "name_zh": "麦纳麦",
+      "aliases": [
+        "manama",
+        "麦纳麦"
+      ]
+    }
+  },
+  "BO": {
+    "LaPaz": {
+      "name_en": "La Paz",
+      "name_zh": "拉巴斯",
+      "aliases": [
+        "la paz",
+        "lapaz",
+        "拉巴斯"
+      ]
+    }
+  },
+  "BR": {
+    "SaoPaulo": {
+      "name_en": "São Paulo",
+      "name_zh": "圣保罗",
+      "aliases": [
+        "gru",
+        "sao paulo",
+        "saopaulo",
+        "圣保罗"
+      ]
+    }
+  },
+  "BW": {
+    "Gaborone": {
+      "name_en": "Gaborone",
+      "name_zh": "哈博罗内",
+      "aliases": [
+        "gaborone",
+        "哈博罗内"
+      ]
+    }
+  },
+  "BY": {
+    "Minsk": {
+      "name_en": "Minsk",
+      "name_zh": "明斯克",
+      "aliases": [
+        "minsk",
+        "明斯克"
+      ]
+    }
+  },
+  "CA": {
+    "Toronto": {
+      "name_en": "Toronto",
+      "name_zh": "多伦多",
+      "aliases": [
+        "toronto",
+        "yyz",
+        "多伦多"
+      ]
+    },
+    "Vancouver": {
+      "name_en": "Vancouver",
+      "name_zh": "温哥华",
+      "aliases": [
+        "vancouver",
+        "yvr",
+        "温哥华"
+      ]
+    },
+    "Montreal": {
+      "name_en": "Montreal",
+      "name_zh": "蒙特利尔",
+      "aliases": [
+        "montreal",
+        "蒙特利尔"
+      ]
+    }
+  },
+  "CH": {
+    "Zurich": {
+      "name_en": "Zurich",
+      "name_zh": "苏黎世",
+      "aliases": [
+        "zurich",
+        "苏黎世"
+      ]
+    }
+  },
+  "CI": {
+    "Abidjan": {
+      "name_en": "Abidjan",
+      "name_zh": "阿比让",
+      "aliases": [
+        "abidjan",
+        "阿比让"
+      ]
+    }
+  },
+  "CL": {
+    "Santiago": {
+      "name_en": "Santiago",
+      "name_zh": "圣地亚哥",
+      "aliases": [
+        "santiago",
+        "圣地亚哥"
+      ]
+    }
+  },
+  "CM": {
+    "Yaounde": {
+      "name_en": "Yaoundé",
+      "name_zh": "雅温得",
+      "aliases": [
+        "yaounde",
+        "雅温得"
+      ]
+    }
+  },
+  "CN": {
+    "Beijing": {
+      "name_en": "Beijing",
+      "name_zh": "北京",
+      "aliases": [
+        "beijing",
+        "bjs",
+        "pek",
+        "北京"
+      ]
+    },
+    "Shanghai": {
+      "name_en": "Shanghai",
+      "name_zh": "上海",
+      "aliases": [
+        "pvg",
+        "sha",
+        "shanghai",
+        "上海"
+      ]
+    },
+    "Guangzhou": {
+      "name_en": "Guangzhou",
+      "name_zh": "广州",
+      "aliases": [
+        "can",
+        "guangzhou",
+        "广州"
+      ]
+    }
+  },
+  "CO": {
+    "Bogota": {
+      "name_en": "Bogotá",
+      "name_zh": "波哥大",
+      "aliases": [
+        "bogota",
+        "波哥大"
+      ]
+    }
+  },
+  "CR": {
+    "SanJose": {
+      "name_en": "San José",
+      "name_zh": "圣何塞",
+      "aliases": [
+        "san jose",
+        "sanjose",
+        "圣何塞"
+      ]
+    }
+  },
+  "CU": {
+    "Havana": {
+      "name_en": "Havana",
+      "name_zh": "哈瓦那",
+      "aliases": [
+        "havana",
+        "哈瓦那"
+      ]
+    }
+  },
+  "CZ": {
+    "Prague": {
+      "name_en": "Prague",
+      "name_zh": "布拉格",
+      "aliases": [
+        "prague",
+        "布拉格"
+      ]
+    }
+  },
+  "DE": {
+    "Frankfurt": {
+      "name_en": "Frankfurt",
+      "name_zh": "法兰克福",
+      "aliases": [
+        "fra",
+        "frankfurt",
+        "法兰克福"
+      ]
+    },
+    "Berlin": {
+      "name_en": "Berlin",
+      "name_zh": "柏林",
+      "aliases": [
+        "ber",
+        "berlin",
+        "柏林"
+      ]
+    },
+    "Munich": {
+      "name_en": "Munich",
+      "name_zh": "慕尼黑",
+      "aliases": [
+        "muc",
+        "munich",
+        "慕尼黑"
+      ]
+    },
+    "Hamburg": {
+      "name_en": "Hamburg",
+      "name_zh": "汉堡",
+      "aliases": [
+        "ham",
+        "hamburg",
+        "汉堡"
+      ]
+    },
+    "Cologne": {
+      "name_en": "Cologne",
+      "name_zh": "科隆",
+      "aliases": [
+        "cologne",
+        "科隆"
+      ]
+    },
+    "Stuttgart": {
+      "name_en": "Stuttgart",
+      "name_zh": "斯图加特",
+      "aliases": [
+        "stuttgart",
+        "斯图加特"
+      ]
+    },
+    "Dusseldorf": {
+      "name_en": "Düsseldorf",
+      "name_zh": "杜塞尔多夫",
+      "aliases": [
+        "dusseldorf",
+        "杜塞尔多夫"
+      ]
+    },
+    "Dortmund": {
+      "name_en": "Dortmund",
+      "name_zh": "多特蒙德",
+      "aliases": [
+        "dortmund",
+        "多特蒙德"
+      ]
+    },
+    "Nuremberg": {
+      "name_en": "Nuremberg",
+      "name_zh": "纽伦堡",
+      "aliases": [
+        "nuremberg",
+        "纽伦堡"
+      ]
+    },
+    "Leipzig": {
+      "name_en": "Leipzig",
+      "name_zh": "莱比锡",
+      "aliases": [
+        "leipzig",
+        "莱比锡"
+      ]
+    }
+  },
+  "DK": {
+    "Copenhagen": {
+      "name_en": "Copenhagen",
+      "name_zh": "哥本哈根",
+      "aliases": [
+        "copenhagen",
+        "哥本哈根"
+      ]
+    }
+  },
+  "DO": {
+    "SantoDomingo": {
+      "name_en": "Santo Domingo",
+      "name_zh": "圣多明各",
+      "aliases": [
+        "santo domingo",
+        "santodomingo",
+        "圣多明各"
+      ]
+    }
+  },
+  "DZ": {
+    "Algiers": {
+      "name_en": "Algiers",
+      "name_zh": "阿尔及尔",
+      "aliases": [
+        "algiers",
+        "阿尔及尔"
+      ]
+    }
+  },
+  "EC": {
+    "Quito": {
+      "name_en": "Quito",
+      "name_zh": "基多",
+      "aliases": [
+        "quito",
+        "基多"
+      ]
+    }
+  },
+  "EE": {
+    "Tallinn": {
+      "name_en": "Tallinn",
+      "name_zh": "塔林",
+      "aliases": [
+        "tallinn",
+        "塔林"
+      ]
+    }
+  },
+  "EG": {
+    "Cairo": {
+      "name_en": "Cairo",
+      "name_zh": "开罗",
+      "aliases": [
+        "cairo",
+        "开罗"
+      ]
+    }
+  },
+  "ES": {
+    "Madrid": {
+      "name_en": "Madrid",
+      "name_zh": "马德里",
+      "aliases": [
+        "madrid",
+        "马德里"
+      ]
+    },
+    "Barcelona": {
+      "name_en": "Barcelona",
+      "name_zh": "巴塞罗那",
+      "aliases": [
+        "barcelona",
+        "巴塞罗那"
+      ]
+    }
+  },
+  "ET": {
+    "AddisAbaba": {
+      "name_en": "Addis Ababa",
+      "name_zh": "亚的斯亚贝巴",
+      "aliases": [
+        "addis ababa",
+        "addisababa",
+        "亚的斯亚贝巴"
+      ]
+    }
+  },
+  "FI": {
+    "Helsinki": {
+      "name_en": "Helsinki",
+      "name_zh": "赫尔辛基",
+      "aliases": [
+        "helsinki",
+        "赫尔辛基"
+      ]
+    }
+  },
+  "FJ": {
+    "Suva": {
+      "name_en": "Suva",
+      "name_zh": "苏瓦",
+      "aliases": [
+        "suva",
+        "苏瓦"
+      ]
+    }
+  },
+  "FR": {
+    "Paris": {
+      "name_en": "Paris",
+      "name_zh": "巴黎",
+      "aliases": [
+        "cdg",
+        "paris",
+        "巴黎"
+      ]
+    },
+    "Marseille": {
+      "name_en": "Marseille",
+      "name_zh": "马赛",
+      "aliases": [
+        "marseille",
+        "马赛"
+      ]
+    }
+  },
+  "GB": {
+    "London": {
+      "name_en": "London",
+      "name_zh": "伦敦",
+      "aliases": [
+        "lhr",
+        "lon",
+        "london",
+        "伦敦"
+      ]
+    },
+    "Manchester": {
+      "name_en": "Manchester",
+      "name_zh": "曼彻斯特",
+      "aliases": [
+        "man",
+        "manchester",
+        "曼彻斯特"
+      ]
+    },
+    "Birmingham": {
+      "name_en": "Birmingham",
+      "name_zh": "伯明翰",
+      "aliases": [
+        "birmingham",
+        "伯明翰"
+      ]
+    },
+    "Edinburgh": {
+      "name_en": "Edinburgh",
+      "name_zh": "爱丁堡",
+      "aliases": [
+        "edinburgh",
+        "爱丁堡"
+      ]
+    },
+    "Glasgow": {
+      "name_en": "Glasgow",
+      "name_zh": "格拉斯哥",
+      "aliases": [
+        "glasgow",
+        "格拉斯哥"
+      ]
+    },
+    "Liverpool": {
+      "name_en": "Liverpool",
+      "name_zh": "利物浦",
+      "aliases": [
+        "liverpool",
+        "利物浦"
+      ]
+    },
+    "Bristol": {
+      "name_en": "Bristol",
+      "name_zh": "布里斯托",
+      "aliases": [
+        "bristol",
+        "布里斯托"
+      ]
+    },
+    "Leeds": {
+      "name_en": "Leeds",
+      "name_zh": "利兹",
+      "aliases": [
+        "leeds",
+        "利兹"
+      ]
+    }
+  },
+  "GE": {
+    "Tbilisi": {
+      "name_en": "Tbilisi",
+      "name_zh": "第比利斯",
+      "aliases": [
+        "tbilisi",
+        "第比利斯"
+      ]
+    }
+  },
+  "GH": {
+    "Accra": {
+      "name_en": "Accra",
+      "name_zh": "阿克拉",
+      "aliases": [
+        "accra",
+        "阿克拉"
+      ]
+    }
+  },
+  "GR": {
+    "Athens": {
+      "name_en": "Athens",
+      "name_zh": "雅典",
+      "aliases": [
+        "athens",
+        "雅典"
+      ]
+    }
+  },
+  "GT": {
+    "Guatemala": {
+      "name_en": "Guatemala City",
+      "name_zh": "危地马拉城",
+      "aliases": [
+        "guatemala",
+        "危地马拉"
+      ]
+    }
+  },
+  "HK": {
+    "Central": {
+      "name_en": "Central",
+      "name_zh": "中环",
+      "aliases": [
+        "central",
+        "中环"
+      ]
+    },
+    "Kowloon": {
+      "name_en": "Kowloon",
+      "name_zh": "九龙",
+      "aliases": [
+        "kowloon",
+        "九龙"
+      ]
+    }
+  },
+  "HR": {
+    "Zagreb": {
+      "name_en": "Zagreb",
+      "name_zh": "萨格勒布",
+      "aliases": [
+        "zagreb",
+        "萨格勒布"
+      ]
+    }
+  },
+  "HU": {
+    "Budapest": {
+      "name_en": "Budapest",
+      "name_zh": "布达佩斯",
+      "aliases": [
+        "budapest",
+        "布达佩斯"
+      ]
+    }
+  },
+  "ID": {
+    "Jakarta": {
+      "name_en": "Jakarta",
+      "name_zh": "雅加达",
+      "aliases": [
+        "jakarta",
+        "雅加达"
+      ]
+    }
+  },
+  "IE": {
+    "Dublin": {
+      "name_en": "Dublin",
+      "name_zh": "都柏林",
+      "aliases": [
+        "dublin",
+        "都柏林"
+      ]
+    }
+  },
+  "IL": {
+    "TelAviv": {
+      "name_en": "Tel Aviv",
+      "name_zh": "特拉维夫",
+      "aliases": [
+        "tel aviv",
+        "telaviv",
+        "特拉维夫"
+      ]
+    }
+  },
+  "IN": {
+    "Mumbai": {
+      "name_en": "Mumbai",
+      "name_zh": "孟买",
+      "aliases": [
+        "bom",
+        "mumbai",
+        "孟买"
+      ]
+    },
+    "Delhi": {
+      "name_en": "Delhi",
+      "name_zh": "德里",
+      "aliases": [
+        "delhi",
+        "德里"
+      ]
+    }
+  },
+  "IQ": {
+    "Baghdad": {
+      "name_en": "Baghdad",
+      "name_zh": "巴格达",
+      "aliases": [
+        "baghdad",
+        "巴格达"
+      ]
+    }
+  },
+  "IR": {
+    "Tehran": {
+      "name_en": "Tehran",
+      "name_zh": "德黑兰",
+      "aliases": [
+        "tehran",
+        "德黑兰"
+      ]
+    }
+  },
+  "IS": {
+    "Reykjavik": {
+      "name_en": "Reykjavik",
+      "name_zh": "雷克雅未克",
+      "aliases": [
+        "reykjavik",
+        "雷克雅未克"
+      ]
+    }
+  },
+  "IT": {
+    "Milan": {
+      "name_en": "Milan",
+      "name_zh": "米兰",
+      "aliases": [
+        "milan",
+        "米兰"
+      ]
+    },
+    "Rome": {
+      "name_en": "Rome",
+      "name_zh": "罗马",
+      "aliases": [
+        "rome",
+        "罗马"
+      ]
+    }
+  },
+  "JM": {
+    "Kingston": {
+      "name_en": "Kingston",
+      "name_zh": "金斯敦",
+      "aliases": [
+        "kingston",
+        "金斯敦"
+      ]
+    }
+  },
+  "JO": {
+    "Amman": {
+      "name_en": "Amman",
+      "name_zh": "安曼",
+      "aliases": [
+        "amman",
+        "安曼"
+      ]
+    }
+  },
+  "JP": {
+    "Tokyo": {
+      "name_en": "Tokyo",
+      "name_zh": "东京",
+      "aliases": [
+        "nrt",
+        "tokyo",
+        "tyo",
+        "东京"
+      ]
+    },
+    "Osaka": {
+      "name_en": "Osaka",
+      "name_zh": "大阪",
+      "aliases": [
+        "kix",
+        "osa",
+        "osaka",
+        "大阪"
+      ]
+    },
+    "Nagoya": {
+      "name_en": "Nagoya",
+      "name_zh": "名古屋",
+      "aliases": [
+        "nagoya",
+        "名古屋"
+      ]
+    },
+    "Fukuoka": {
+      "name_en": "Fukuoka",
+      "name_zh": "福冈",
+      "aliases": [
+        "fukuoka",
+        "福冈"
+      ]
+    }
+  },
+  "KE": {
+    "Nairobi": {
+      "name_en": "Nairobi",
+      "name_zh": "内罗毕",
+      "aliases": [
+        "nairobi",
+        "内罗毕"
+      ]
+    }
+  },
+  "KG": {
+    "Bishkek": {
+      "name_en": "Bishkek",
+      "name_zh": "比什凯克",
+      "aliases": [
+        "bishkek",
+        "比什凯克"
+      ]
+    }
+  },
+  "KH": {
+    "PhnomPenh": {
+      "name_en": "Phnom Penh",
+      "name_zh": "金边",
+      "aliases": [
+        "phnom penh",
+        "phnompenh",
+        "金边"
+      ]
+    }
+  },
+  "KR": {
+    "Seoul": {
+      "name_en": "Seoul",
+      "name_zh": "首尔",
+      "aliases": [
+        "icn",
+        "sel",
+        "seoul",
+        "首尔"
+      ]
+    }
+  },
+  "KW": {
+    "Kuwait": {
+      "name_en": "Kuwait City",
+      "name_zh": "科威特城",
+      "aliases": [
+        "kuwait",
+        "科威特"
+      ]
+    }
+  },
+  "KZ": {
+    "Almaty": {
+      "name_en": "Almaty",
+      "name_zh": "阿拉木图",
+      "aliases": [
+        "almaty",
+        "阿拉木图"
+      ]
+    }
+  },
+  "LA": {
+    "Vientiane": {
+      "name_en": "Vientiane",
+      "name_zh": "万象",
+      "aliases": [
+        "vientiane",
+        "万象"
+      ]
+    }
+  },
+  "LB": {
+    "Beirut": {
+      "name_en": "Beirut",
+      "name_zh": "贝鲁特",
+      "aliases": [
+        "beirut",
+        "贝鲁特"
+      ]
+    }
+  },
+  "LK": {
+    "Colombo": {
+      "name_en": "Colombo",
+      "name_zh": "科伦坡",
+      "aliases": [
+        "colombo",
+        "科伦坡"
+      ]
+    }
+  },
+  "LT": {
+    "Vilnius": {
+      "name_en": "Vilnius",
+      "name_zh": "维尔纽斯",
+      "aliases": [
+        "vilnius",
+        "维尔纽斯"
+      ]
+    }
+  },
+  "LV": {
+    "Riga": {
+      "name_en": "Riga",
+      "name_zh": "里加",
+      "aliases": [
+        "riga",
+        "里加"
+      ]
+    }
+  },
+  "MA": {
+    "Casablanca": {
+      "name_en": "Casablanca",
+      "name_zh": "卡萨布兰卡",
+      "aliases": [
+        "casablanca",
+        "卡萨布兰卡"
+      ]
+    }
+  },
+  "MD": {
+    "Chisinau": {
+      "name_en": "Chișinău",
+      "name_zh": "基希讷乌",
+      "aliases": [
+        "chisinau",
+        "基希讷乌"
+      ]
+    }
+  },
+  "ME": {
+    "Podgorica": {
+      "name_en": "Podgorica",
+      "name_zh": "波德戈里察",
+      "aliases": [
+        "podgorica",
+        "波德戈里察"
+      ]
+    }
+  },
+  "MK": {
+    "Skopje": {
+      "name_en": "Skopje",
+      "name_zh": "斯科普里",
+      "aliases": [
+        "skopje",
+        "斯科普里"
+      ]
+    }
+  },
+  "MM": {
+    "Yangon": {
+      "name_en": "Yangon",
+      "name_zh": "仰光",
+      "aliases": [
+        "yangon",
+        "仰光"
+      ]
+    }
+  },
+  "MN": {
+    "Ulaanbaatar": {
+      "name_en": "Ulaanbaatar",
+      "name_zh": "乌兰巴托",
+      "aliases": [
+        "ulaanbaatar",
+        "乌兰巴托"
+      ]
+    }
+  },
+  "MW": {
+    "Lilongwe": {
+      "name_en": "Lilongwe",
+      "name_zh": "利隆圭",
+      "aliases": [
+        "lilongwe",
+        "利隆圭"
+      ]
+    }
+  },
+  "MX": {
+    "MexicoCity": {
+      "name_en": "Mexico City",
+      "name_zh": "墨西哥城",
+      "aliases": [
+        "mexico city",
+        "mexicocity",
+        "墨西哥城"
+      ]
+    }
+  },
+  "MY": {
+    "KualaLumpur": {
+      "name_en": "Kuala Lumpur",
+      "name_zh": "吉隆坡",
+      "aliases": [
+        "kl",
+        "kuala lumpur",
+        "kualalumpur",
+        "吉隆坡"
+      ]
+    }
+  },
+  "MZ": {
+    "Maputo": {
+      "name_en": "Maputo",
+      "name_zh": "马普托",
+      "aliases": [
+        "maputo",
+        "马普托"
+      ]
+    }
+  },
+  "NA": {
+    "Windhoek": {
+      "name_en": "Windhoek",
+      "name_zh": "温得和克",
+      "aliases": [
+        "windhoek",
+        "温得和克"
+      ]
+    }
+  },
+  "NG": {
+    "Lagos": {
+      "name_en": "Lagos",
+      "name_zh": "拉各斯",
+      "aliases": [
+        "lagos",
+        "拉各斯"
+      ]
+    }
+  },
+  "NL": {
+    "Amsterdam": {
+      "name_en": "Amsterdam",
+      "name_zh": "阿姆斯特丹",
+      "aliases": [
+        "ams",
+        "amsterdam",
+        "阿姆斯特丹"
+      ]
+    },
+    "Rotterdam": {
+      "name_en": "Rotterdam",
+      "name_zh": "鹿特丹",
+      "aliases": [
+        "rotterdam",
+        "鹿特丹"
+      ]
+    }
+  },
+  "false": {
+    "Oslo": {
+      "name_en": "Oslo",
+      "name_zh": "奥斯陆",
+      "aliases": [
+        "oslo",
+        "奥斯陆"
+      ]
+    }
+  },
+  "NP": {
+    "Kathmandu": {
+      "name_en": "Kathmandu",
+      "name_zh": "加德满都",
+      "aliases": [
+        "kathmandu",
+        "加德满都"
+      ]
+    }
+  },
+  "NZ": {
+    "Auckland": {
+      "name_en": "Auckland",
+      "name_zh": "奥克兰",
+      "aliases": [
+        "auckland",
+        "奥克兰"
+      ]
+    }
+  },
+  "OM": {
+    "Muscat": {
+      "name_en": "Muscat",
+      "name_zh": "马斯喀特",
+      "aliases": [
+        "muscat",
+        "马斯喀特"
+      ]
+    }
+  },
+  "PA": {
+    "Panama": {
+      "name_en": "Panama City",
+      "name_zh": "巴拿马城",
+      "aliases": [
+        "panama",
+        "巴拿马"
+      ]
+    }
+  },
+  "PE": {
+    "Lima": {
+      "name_en": "Lima",
+      "name_zh": "利马",
+      "aliases": [
+        "lima",
+        "利马"
+      ]
+    }
+  },
+  "PG": {
+    "PortMoresby": {
+      "name_en": "Port Moresby",
+      "name_zh": "莫尔兹比港",
+      "aliases": [
+        "port moresby",
+        "portmoresby",
+        "莫尔兹比港"
+      ]
+    }
+  },
+  "PH": {
+    "Manila": {
+      "name_en": "Manila",
+      "name_zh": "马尼拉",
+      "aliases": [
+        "manila",
+        "马尼拉"
+      ]
+    }
+  },
+  "PK": {
+    "Karachi": {
+      "name_en": "Karachi",
+      "name_zh": "卡拉奇",
+      "aliases": [
+        "karachi",
+        "卡拉奇"
+      ]
+    }
+  },
+  "PL": {
+    "Warsaw": {
+      "name_en": "Warsaw",
+      "name_zh": "华沙",
+      "aliases": [
+        "warsaw",
+        "华沙"
+      ]
+    }
+  },
+  "PT": {
+    "Lisbon": {
+      "name_en": "Lisbon",
+      "name_zh": "里斯本",
+      "aliases": [
+        "lisbon",
+        "里斯本"
+      ]
+    }
+  },
+  "PY": {
+    "Asuncion": {
+      "name_en": "Asunción",
+      "name_zh": "亚松森",
+      "aliases": [
+        "asuncion",
+        "亚松森"
+      ]
+    }
+  },
+  "QA": {
+    "Doha": {
+      "name_en": "Doha",
+      "name_zh": "多哈",
+      "aliases": [
+        "doha",
+        "多哈"
+      ]
+    }
+  },
+  "RO": {
+    "Bucharest": {
+      "name_en": "Bucharest",
+      "name_zh": "布加勒斯特",
+      "aliases": [
+        "bucharest",
+        "布加勒斯特"
+      ]
+    }
+  },
+  "RS": {
+    "Belgrade": {
+      "name_en": "Belgrade",
+      "name_zh": "贝尔格莱德",
+      "aliases": [
+        "belgrade",
+        "贝尔格莱德"
+      ]
+    }
+  },
+  "RU": {
+    "Moscow": {
+      "name_en": "Moscow",
+      "name_zh": "莫斯科",
+      "aliases": [
+        "moscow",
+        "mow",
+        "莫斯科"
+      ]
+    },
+    "StPetersburg": {
+      "name_en": "St. Petersburg",
+      "name_zh": "圣彼得堡",
+      "aliases": [
+        "st petersburg",
+        "stpetersburg",
+        "圣彼得堡"
+      ]
+    }
+  },
+  "SA": {
+    "Riyadh": {
+      "name_en": "Riyadh",
+      "name_zh": "利雅得",
+      "aliases": [
+        "riyadh",
+        "利雅得"
+      ]
+    }
+  },
+  "SE": {
+    "Stockholm": {
+      "name_en": "Stockholm",
+      "name_zh": "斯德哥尔摩",
+      "aliases": [
+        "stockholm",
+        "斯德哥尔摩"
+      ]
+    }
+  },
+  "SG": {
+    "Singapore": {
+      "name_en": "Singapore",
+      "name_zh": "新加坡",
+      "aliases": [
+        "sg",
+        "sin",
+        "singapore",
+        "新加坡"
+      ]
+    }
+  },
+  "SI": {
+    "Ljubljana": {
+      "name_en": "Ljubljana",
+      "name_zh": "卢布尔雅那",
+      "aliases": [
+        "ljubljana",
+        "卢布尔雅那"
+      ]
+    }
+  },
+  "SK": {
+    "Bratislava": {
+      "name_en": "Bratislava",
+      "name_zh": "布拉迪斯拉发",
+      "aliases": [
+        "bratislava",
+        "布拉迪斯拉发"
+      ]
+    }
+  },
+  "SN": {
+    "Dakar": {
+      "name_en": "Dakar",
+      "name_zh": "达喀尔",
+      "aliases": [
+        "dakar",
+        "达喀尔"
+      ]
+    }
+  },
+  "SY": {
+    "Damascus": {
+      "name_en": "Damascus",
+      "name_zh": "大马士革",
+      "aliases": [
+        "damascus",
+        "大马士革"
+      ]
+    }
+  },
+  "TH": {
+    "Bangkok": {
+      "name_en": "Bangkok",
+      "name_zh": "曼谷",
+      "aliases": [
+        "bangkok",
+        "bkk",
+        "曼谷"
+      ]
+    }
+  },
+  "TJ": {
+    "Dushanbe": {
+      "name_en": "Dushanbe",
+      "name_zh": "杜尚别",
+      "aliases": [
+        "dushanbe",
+        "杜尚别"
+      ]
+    }
+  },
+  "TM": {
+    "Ashgabat": {
+      "name_en": "Ashgabat",
+      "name_zh": "阿什哈巴德",
+      "aliases": [
+        "ashgabat",
+        "阿什哈巴德"
+      ]
+    }
+  },
+  "TN": {
+    "Tunis": {
+      "name_en": "Tunis",
+      "name_zh": "突尼斯",
+      "aliases": [
+        "tunis",
+        "突尼斯"
+      ]
+    }
+  },
+  "TR": {
+    "Istanbul": {
+      "name_en": "Istanbul",
+      "name_zh": "伊斯坦布尔",
+      "aliases": [
+        "ist",
+        "istanbul",
+        "伊斯坦布尔"
+      ]
+    }
+  },
+  "TT": {
+    "PortOfSpain": {
+      "name_en": "Port of Spain",
+      "name_zh": "西班牙港",
+      "aliases": [
+        "port of spain",
+        "portofspain",
+        "西班牙港"
+      ]
+    }
+  },
+  "TW": {
+    "Taipei": {
+      "name_en": "Taipei",
+      "name_zh": "台北",
+      "aliases": [
+        "taipei",
+        "tpe",
+        "台北"
+      ]
+    },
+    "Hsinchu": {
+      "name_en": "Hsinchu",
+      "name_zh": "新竹",
+      "aliases": [
+        "hsinchu",
+        "新竹"
+      ]
+    }
+  },
+  "TZ": {
+    "DaresSalaam": {
+      "name_en": "Dar es Salaam",
+      "name_zh": "达累斯萨拉姆",
+      "aliases": [
+        "dar es salaam",
+        "daressalaam",
+        "达累斯萨拉姆"
+      ]
+    }
+  },
+  "UA": {
+    "Kyiv": {
+      "name_en": "Kyiv",
+      "name_zh": "基辅",
+      "aliases": [
+        "kiev",
+        "kyiv",
+        "基辅"
+      ]
+    }
+  },
+  "UG": {
+    "Kampala": {
+      "name_en": "Kampala",
+      "name_zh": "坎帕拉",
+      "aliases": [
+        "kampala",
+        "坎帕拉"
+      ]
+    }
+  },
+  "US": {
+    "LosAngeles": {
+      "name_en": "Los Angeles",
+      "name_zh": "洛杉矶",
+      "aliases": [
+        "la",
+        "lax",
+        "los angeles",
+        "losangeles",
+        "洛杉矶"
+      ]
+    },
+    "NewYork": {
+      "name_en": "New York",
+      "name_zh": "纽约",
+      "aliases": [
+        "jfk",
+        "new york",
+        "newyork",
+        "ny",
+        "nyc",
+        "纽约"
+      ]
+    },
+    "SanJose": {
+      "name_en": "San Jose",
+      "name_zh": "圣何塞",
+      "aliases": [
+        "san jose",
+        "sanjose",
+        "sj",
+        "sjc",
+        "圣何塞",
+        "硅谷"
+      ]
+    },
+    "Seattle": {
+      "name_en": "Seattle",
+      "name_zh": "西雅图",
+      "aliases": [
+        "sea",
+        "seattle",
+        "西雅图"
+      ]
+    },
+    "Chicago": {
+      "name_en": "Chicago",
+      "name_zh": "芝加哥",
+      "aliases": [
+        "chicago",
+        "ord",
+        "芝加哥"
+      ]
+    },
+    "Dallas": {
+      "name_en": "Dallas",
+      "name_zh": "达拉斯",
+      "aliases": [
+        "dallas",
+        "dfw",
+        "达拉斯"
+      ]
+    },
+    "Miami": {
+      "name_en": "Miami",
+      "name_zh": "迈阿密",
+      "aliases": [
+        "mia",
+        "miami",
+        "迈阿密"
+      ]
+    },
+    "Atlanta": {
+      "name_en": "Atlanta",
+      "name_zh": "亚特兰大",
+      "aliases": [
+        "atl",
+        "atlanta",
+        "亚特兰大"
+      ]
+    },
+    "Phoenix": {
+      "name_en": "Phoenix",
+      "name_zh": "凤凰城",
+      "aliases": [
+        "phoenix",
+        "phx",
+        "凤凰城"
+      ]
+    },
+    "Denver": {
+      "name_en": "Denver",
+      "name_zh": "丹佛",
+      "aliases": [
+        "den",
+        "denver",
+        "丹佛"
+      ]
+    },
+    "Boston": {
+      "name_en": "Boston",
+      "name_zh": "波士顿",
+      "aliases": [
+        "bos",
+        "boston",
+        "波士顿"
+      ]
+    },
+    "Washington": {
+      "name_en": "Washington DC",
+      "name_zh": "华盛顿",
+      "aliases": [
+        "dc",
+        "iad",
+        "washington",
+        "华盛顿"
+      ]
+    },
+    "SanFrancisco": {
+      "name_en": "San Francisco",
+      "name_zh": "旧金山",
+      "aliases": [
+        "san francisco",
+        "sanfrancisco",
+        "sf",
+        "sfo",
+        "旧金山"
+      ]
+    },
+    "Portland": {
+      "name_en": "Portland",
+      "name_zh": "波特兰",
+      "aliases": [
+        "pdx",
+        "portland",
+        "波特兰"
+      ]
+    },
+    "LasVegas": {
+      "name_en": "Las Vegas",
+      "name_zh": "拉斯维加斯",
+      "aliases": [
+        "las",
+        "las vegas",
+        "lasvegas",
+        "拉斯维加斯"
+      ]
+    }
+  },
+  "UY": {
+    "Montevideo": {
+      "name_en": "Montevideo",
+      "name_zh": "蒙得维的亚",
+      "aliases": [
+        "montevideo",
+        "蒙得维的亚"
+      ]
+    }
+  },
+  "UZ": {
+    "Tashkent": {
+      "name_en": "Tashkent",
+      "name_zh": "塔什干",
+      "aliases": [
+        "tashkent",
+        "塔什干"
+      ]
+    }
+  },
+  "VE": {
+    "Caracas": {
+      "name_en": "Caracas",
+      "name_zh": "加拉加斯",
+      "aliases": [
+        "caracas",
+        "加拉加斯"
+      ]
+    }
+  },
+  "VN": {
+    "Hanoi": {
+      "name_en": "Hanoi",
+      "name_zh": "河内",
+      "aliases": [
+        "hanoi",
+        "河内"
+      ]
+    }
+  },
+  "XK": {
+    "Pristina": {
+      "name_en": "Pristina",
+      "name_zh": "普里什蒂纳",
+      "aliases": [
+        "pristina",
+        "普里什蒂纳"
+      ]
+    }
+  },
+  "YE": {
+    "Sanaa": {
+      "name_en": "Sanaa",
+      "name_zh": "萨那",
+      "aliases": [
+        "sanaa",
+        "萨那"
+      ]
+    }
+  },
+  "ZA": {
+    "Johannesburg": {
+      "name_en": "Johannesburg",
+      "name_zh": "约翰内斯堡",
+      "aliases": [
+        "johannesburg",
+        "约翰内斯堡"
+      ]
+    }
+  },
+  "ZM": {
+    "Lusaka": {
+      "name_en": "Lusaka",
+      "name_zh": "卢萨卡",
+      "aliases": [
+        "lusaka",
+        "卢萨卡"
+      ]
+    }
+  },
+  "ZW": {
+    "Harare": {
+      "name_en": "Harare",
+      "name_zh": "哈拉雷",
+      "aliases": [
+        "harare",
+        "哈拉雷"
+      ]
+    }
+  }
+}

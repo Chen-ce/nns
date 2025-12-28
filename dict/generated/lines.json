@@ -1,0 +1,202 @@
+{
+  "AS4837": {
+    "aliases": [
+      "4837",
+      "as4837",
+      "cu4837",
+      "联通4837",
+      "聯通4837"
+    ],
+    "display_en": "AS4837",
+    "display_zh": "联通4837"
+  },
+  "AS9929": {
+    "aliases": [
+      "9929",
+      "as9929",
+      "cu9929",
+      "联通9929",
+      "聯通9929"
+    ],
+    "display_en": "AS9929",
+    "display_zh": "联通9929"
+  },
+  "BGP": {
+    "aliases": [
+      "bgp",
+      "多線",
+      "多线"
+    ],
+    "display_en": "BGP",
+    "display_zh": "BGP"
+  },
+  "Business": {
+    "aliases": [
+      "business",
+      "ip",
+      "企业",
+      "企業",
+      "商业ip",
+      "商宽",
+      "商寬"
+    ],
+    "display_en": "Business",
+    "display_zh": "商宽"
+  },
+  "CMI": {
+    "aliases": [
+      "china mobile",
+      "chinamobile",
+      "cm",
+      "cmi",
+      "移动",
+      "移動"
+    ],
+    "display_en": "CMI",
+    "display_zh": "移动"
+  },
+  "CN2": {
+    "aliases": [
+      "cn2",
+      "cn2 gia",
+      "cn2gia",
+      "gia"
+    ],
+    "display_en": "CN2 GIA",
+    "display_zh": "CN2"
+  },
+  "CUII": {
+    "aliases": [
+      "china unicom",
+      "chinaunicom",
+      "cu",
+      "cuii",
+      "联通",
+      "聯通"
+    ],
+    "display_en": "CU",
+    "display_zh": "联通"
+  },
+  "Direct": {
+    "aliases": [
+      "direct",
+      "直连",
+      "直連"
+    ],
+    "display_en": "Direct",
+    "display_zh": "直连"
+  },
+  "Dynamic": {
+    "aliases": [
+      "dynamic",
+      "ip",
+      "动态",
+      "动态ip",
+      "動態"
+    ],
+    "display_en": "Dynamic",
+    "display_zh": "动态"
+  },
+  "GZHK": {
+    "aliases": [
+      "gzhk",
+      "广州-香港",
+      "广港",
+      "廣港"
+    ],
+    "display_en": "Guangzhou-HK",
+    "display_zh": "广港"
+  },
+  "Game": {
+    "aliases": [
+      "game",
+      "游戏",
+      "游戏专线",
+      "遊戲"
+    ],
+    "display_en": "Game",
+    "display_zh": "游戏"
+  },
+  "HUJP": {
+    "aliases": [
+      "hujp",
+      "上海-日本",
+      "沪日",
+      "滬日"
+    ],
+    "display_en": "Shanghai-Tokyo",
+    "display_zh": "沪日"
+  },
+  "Home": {
+    "aliases": [
+      "home",
+      "ip",
+      "native",
+      "native ip",
+      "nativeip",
+      "residential",
+      "住宅",
+      "原生",
+      "原生ip",
+      "家宽",
+      "家寬"
+    ],
+    "display_en": "Residential",
+    "display_zh": "家宽"
+  },
+  "IEPL": {
+    "aliases": [
+      "iepl",
+      "专线",
+      "企业专线",
+      "內網專線",
+      "内网专线"
+    ],
+    "display_en": "IEPL",
+    "display_zh": "专线"
+  },
+  "IPLC": {
+    "aliases": [
+      "iplc",
+      "国际专线",
+      "国际线路",
+      "國際專線"
+    ],
+    "display_en": "IPLC",
+    "display_zh": "国际专线"
+  },
+  "Relay": {
+    "aliases": [
+      "relay",
+      "中轉",
+      "中转",
+      "轉發",
+      "转发"
+    ],
+    "display_en": "Relay",
+    "display_zh": "中转"
+  },
+  "Static": {
+    "aliases": [
+      "ip",
+      "static",
+      "固定ip",
+      "静态",
+      "静态ip",
+      "靜態"
+    ],
+    "display_en": "Static",
+    "display_zh": "静态"
+  },
+  "Tunnel": {
+    "aliases": [
+      "ssr",
+      "trojan",
+      "tunnel",
+      "v2ray",
+      "隧道"
+    ],
+    "display_en": "Tunnel",
+    "display_zh": "隧道"
+  }
+}

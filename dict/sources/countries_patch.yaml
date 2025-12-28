@@ -1,0 +1,24 @@
+overrides:
+  HK:
+    name_en: Hong Kong
+    name_zh: 香港
+    aliases:
+      - hongkong
+      - hong kong
+      - hk
+      - hkg
+      - 香港
+      - 港
+  US:
+    name_en: United States
+    name_zh: 美国
+    aliases:
+      - usa
+      - u.s.
+      - united states
+      - america
+      - us
+      - 美国
+      - 美
+code_aliases:
+  UK: GB

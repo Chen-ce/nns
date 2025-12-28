@@ -45,8 +45,7 @@ env/
 *.log
 
 # Project specific
-# 根目录下的 JSON 文件（可能是测试文件）
-/*.json
-
-# 但保留 dict/generated/ 下的生成文件（这些应该提交）
+# 忽略根目录及子目录下的本地测试 JSON 文件
+**/*.json
+# 但保留生成的字典核心成果
 !dict/generated/*.json

@@ -25,28 +25,20 @@ def build_keyword_file(yaml_path: Path, json_path: Path) -> int:
     with yaml_path.open("r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
     
-    if not isinstance(data, dict) or "patterns" not in data:
-        raise ValueError(f"{yaml_path.name} must contain a 'patterns' list at the root.")
+    if not isinstance(data, dict):
+        raise ValueError(f"{yaml_path.name} must be a dictionary.")
     
-    patterns = data["patterns"]
-    if not isinstance(patterns, list):
-        raise ValueError(f"'patterns' in {yaml_path.name} must be a list.")
+    # Handle simple patterns list
+    if "patterns" in data and isinstance(data["patterns"], list):
+        data["patterns"] = sorted(set(p for p in data["patterns"] if p))
     
-    # Remove duplicates and sort
-    unique_patterns = sorted(set(p for p in patterns if p))
-    
-    result = {
-        "patterns": unique_patterns
-    }
-    
+    # Write to JSON
     json_path.write_text(
-        json.dumps(result, ensure_ascii=False, indent=2) + "\n",
+        json.dumps(data, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
     
     print(f"✓ Generated {json_path}")
-    print(f"  {len(unique_patterns)} patterns")
-    
     return 0
 
 
@@ -67,7 +59,12 @@ def main() -> int:
     ad_json = generated_dir / "keywords_ad.json"
     ret2 = build_keyword_file(ad_yaml, ad_json)
     
-    return ret1 or ret2
+    # Build keywords_connectors.json
+    conn_yaml = sources_dir / "keywords_connectors.yaml"
+    conn_json = generated_dir / "keywords_connectors.json"
+    ret3 = build_keyword_file(conn_yaml, conn_json)
+    
+    return ret1 or ret2 or ret3
 
 
 if __name__ == "__main__":

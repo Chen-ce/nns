@@ -1,0 +1,25 @@
+# NNS v2 Connectors
+# 用于识别中转、经由、落地等语义
+
+# 经由/中转类 (path)
+via:
+  - via
+  - 经由
+  - 中转
+  - 转发
+  - relay
+
+# 落地/出口类 (exit)
+exit:
+  - exit
+  - 落地
+  - 出口
+  - 终端
+
+# 箭头类 (direction/connector)
+arrow:
+  - "->"
+  - "→"
+  - ">"
+  - "=>"
+  - "»"

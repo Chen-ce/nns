@@ -688,11 +688,28 @@ const matchTagsV2 = (tokens, excluded) => {
 // 统计先验：常见国家（用于打分）
 const COMMON_COUNTRIES = ['US', 'HK', 'SG', 'JP', 'TW', 'KR', 'GB', 'DE'];
 
-// 连接词模式
-const CONNECTOR_PATTERNS = {
-    exit: /→|->|to|落地/i,
-    via: /经|via|中转|过/i,
-    separator: /[-|_\s]/
+// 动态获取连接词模式（从字典加载）
+const getConnectorPatterns = () => {
+    const connectors = DICTS.KEYWORDS_CONNECTORS || {};
+
+    // 构建正则表达式
+    const exitWords = connectors.exit || [];
+    const viaWords = connectors.via || [];
+    const arrowWords = connectors.arrow || [];
+
+    // 合并箭头和落地词作为"落地标记"
+    const exitPatterns = [...exitWords, ...arrowWords].map(w =>
+        w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') // 转义特殊字符
+    );
+
+    const viaPatterns = viaWords.map(w =>
+        w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    );
+
+    return {
+        exit: exitPatterns.length > 0 ? new RegExp(exitPatterns.join('|'), 'i') : null,
+        via: viaPatterns.length > 0 ? new RegExp(viaPatterns.join('|'), 'i') : null
+    };
 };
 
 // 生成所有可能的解析候选方案
@@ -745,8 +762,9 @@ const calculateScore = (candidate, nodeName, matches) => {
     }
 
     // 2. 上下文连贯性 (25%): 检查连接词
-    if (CONNECTOR_PATTERNS.exit.test(nodeName) && candidate.exitMatch) {
-        const connectorMatch = nodeName.match(CONNECTOR_PATTERNS.exit);
+    const connectorPatterns = getConnectorPatterns();
+    if (connectorPatterns.exit && connectorPatterns.exit.test(nodeName) && candidate.exitMatch) {
+        const connectorMatch = nodeName.match(connectorPatterns.exit);
         if (connectorMatch) {
             const connectorPos = connectorMatch.index;
             // 落地位置在连接词之后

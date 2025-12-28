@@ -49,3 +49,7 @@ env/
 **/*.json
 # 但保留生成的字典核心成果
 !dict/generated/*.json
+
+
+# 忽略插件文件
+# plugin/plugin.js

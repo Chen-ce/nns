@@ -1,0 +1,19 @@
+{
+  "files": {
+    "cities.json": {
+      "cities": 171,
+      "countries": 125
+    },
+    "city_alias_map.json": {
+      "aliases": 414,
+      "conflicts": 3
+    },
+    "countries.json": {
+      "countries": 264
+    },
+    "country_alias_map.json": {
+      "aliases": 1138
+    }
+  },
+  "version": "1.0.0"
+}

@@ -4,7 +4,11 @@ import re
 import sys
 from pathlib import Path
 from typing import Dict, List, Optional
+from urllib.error import HTTPError, URLError
 from urllib.request import urlopen
+
+from utils import compact_alias, normalize_spaces
+from version_manager import update_version_file
 
 
 CLDR_EN_URLS = [
@@ -24,14 +28,28 @@ ISO3166_URLS = [
     "master/all/all.json"
 ]
 
+# Version for generated files
+VERSION = "1.0.0"
+
 
 def fetch_json(urls: List[str]) -> dict:
+    """Fetch JSON from a list of URLs, trying each until one succeeds.
+    
+    Args:
+        urls: List of URLs to try
+        
+    Returns:
+        Parsed JSON data as dict
+        
+    Raises:
+        RuntimeError: If all URLs fail to fetch
+    """
     last_error = None
     for url in urls:
         try:
-            with urlopen(url) as resp:
+            with urlopen(url, timeout=30) as resp:
                 return json.loads(resp.read().decode("utf-8"))
-        except Exception as exc:  # noqa: BLE001
+        except (URLError, HTTPError, json.JSONDecodeError, TimeoutError) as exc:
             last_error = exc
     raise RuntimeError(f"Failed to fetch JSON from: {urls}") from last_error
 
@@ -42,12 +60,8 @@ def flag_emoji(cc: str) -> str:
     return chr(127397 + ord(cc[0])) + chr(127397 + ord(cc[1]))
 
 
-def normalize_spaces(text: str) -> str:
-    return re.sub(r"\s+", " ", text).strip()
 
 
-def compact_alias(text: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "", text.lower())
 
 
 def build_aliases(cc: str, name_en: str, name_zh: str, alpha3: Optional[str]) -> List[str]:
@@ -166,15 +180,47 @@ def main() -> int:
     for cc, data in result.items():
         for alias in data["aliases"]:
             alias_map[alias] = cc
+    
+    # Apply code_aliases with conflict detection
+    overwritten = []
     for alias, target in code_aliases.items():
-        alias_map[alias.lower()] = target
+        alias_lower = alias.lower()
+        if alias_lower in alias_map and alias_map[alias_lower] != target:
+            overwritten.append(f"'{alias}': {alias_map[alias_lower]} -> {target}")
+        alias_map[alias_lower] = target
 
     alias_map_path = generated_dir / "country_alias_map.json"
     alias_map_path.write_text(
         json.dumps(alias_map, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
-
+    
+    # Update version.json (merges with existing data)
+    update_version_file(
+        generated_dir,
+        VERSION,
+        {
+            "countries.json": {"countries": len(result)},
+            "country_alias_map.json": {"aliases": len(alias_map)}
+        }
+    )
+    version_path = generated_dir / "version.json"
+    
+    print(f"✓ Generated {countries_path}")
+    print(f"✓ Generated {alias_map_path}")
+    print(f"✓ Generated {version_path}")
+    print(f"  {len(result)} countries, {len(alias_map)} aliases")
+    
+    # Report code_aliases
+    if code_aliases:
+        print(f"  {len(code_aliases)} custom code aliases applied")
+        if overwritten:
+            print(f"  ⚠ {len(overwritten)} aliases overwritten by patch:")
+            for msg in overwritten[:5]:
+                print(f"    {msg}")
+            if len(overwritten) > 5:
+                print(f"    ... and {len(overwritten) - 5} more")
+    
     return 0
 
 

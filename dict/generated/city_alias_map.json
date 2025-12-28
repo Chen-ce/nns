@@ -1,416 +1,1247 @@
 {
-  "abidjan": "CI.Abidjan",
-  "accra": "GH.Accra",
-  "addis ababa": "ET.AddisAbaba",
-  "addisababa": "ET.AddisAbaba",
-  "algiers": "DZ.Algiers",
-  "almaty": "KZ.Almaty",
-  "amman": "JO.Amman",
-  "ams": "NL.Amsterdam",
-  "amsterdam": "NL.Amsterdam",
-  "ashgabat": "TM.Ashgabat",
-  "asuncion": "PY.Asuncion",
-  "athens": "GR.Athens",
-  "atl": "US.Atlanta",
-  "atlanta": "US.Atlanta",
-  "auckland": "NZ.Auckland",
-  "baghdad": "IQ.Baghdad",
-  "baku": "AZ.Baku",
-  "bangkok": "TH.Bangkok",
-  "barcelona": "ES.Barcelona",
-  "beijing": "CN.Beijing",
-  "beirut": "LB.Beirut",
-  "belgrade": "RS.Belgrade",
-  "ber": "DE.Berlin",
-  "berlin": "DE.Berlin",
-  "birmingham": "GB.Birmingham",
-  "bishkek": "KG.Bishkek",
-  "bjs": "CN.Beijing",
-  "bkk": "TH.Bangkok",
-  "bogota": "CO.Bogota",
-  "bom": "IN.Mumbai",
-  "bos": "US.Boston",
-  "boston": "US.Boston",
-  "bratislava": "SK.Bratislava",
-  "bristol": "GB.Bristol",
-  "brussels": "BE.Brussels",
-  "bucharest": "RO.Bucharest",
-  "budapest": "HU.Budapest",
-  "buenos aires": "AR.BuenosAires",
-  "buenosaires": "AR.BuenosAires",
-  "cairo": "EG.Cairo",
-  "can": "CN.Guangzhou",
-  "caracas": "VE.Caracas",
-  "casablanca": "MA.Casablanca",
-  "cdg": "FR.Paris",
-  "central": "HK.Central",
-  "chicago": "US.Chicago",
-  "chisinau": "MD.Chisinau",
-  "cologne": "DE.Cologne",
-  "colombo": "LK.Colombo",
-  "copenhagen": "DK.Copenhagen",
-  "dakar": "SN.Dakar",
-  "dallas": "US.Dallas",
-  "damascus": "SY.Damascus",
-  "dar es salaam": "TZ.DaresSalaam",
-  "daressalaam": "TZ.DaresSalaam",
-  "dc": "US.Washington",
-  "delhi": "IN.Delhi",
-  "den": "US.Denver",
-  "denver": "US.Denver",
-  "dfw": "US.Dallas",
-  "dhaka": "BD.Dhaka",
-  "doha": "QA.Doha",
-  "dortmund": "DE.Dortmund",
-  "dubai": "AE.Dubai",
-  "dublin": "IE.Dublin",
-  "dushanbe": "TJ.Dushanbe",
-  "dusseldorf": "DE.Dusseldorf",
-  "dxb": "AE.Dubai",
-  "edinburgh": "GB.Edinburgh",
-  "fra": "DE.Frankfurt",
-  "frankfurt": "DE.Frankfurt",
-  "fukuoka": "JP.Fukuoka",
-  "gaborone": "BW.Gaborone",
-  "glasgow": "GB.Glasgow",
-  "gru": "BR.SaoPaulo",
-  "guangzhou": "CN.Guangzhou",
-  "guatemala": "GT.Guatemala",
-  "ham": "DE.Hamburg",
-  "hamburg": "DE.Hamburg",
-  "hanoi": "VN.Hanoi",
-  "harare": "ZW.Harare",
-  "havana": "CU.Havana",
-  "helsinki": "FI.Helsinki",
-  "hsinchu": "TW.Hsinchu",
-  "iad": "US.Washington",
-  "icn": "KR.Seoul",
-  "ist": "TR.Istanbul",
-  "istanbul": "TR.Istanbul",
-  "jakarta": "ID.Jakarta",
-  "jfk": "US.NewYork",
-  "johannesburg": "ZA.Johannesburg",
-  "kampala": "UG.Kampala",
-  "karachi": "PK.Karachi",
-  "kathmandu": "NP.Kathmandu",
-  "kiev": "UA.Kyiv",
-  "kingston": "JM.Kingston",
-  "kix": "JP.Osaka",
-  "kl": "MY.KualaLumpur",
-  "kowloon": "HK.Kowloon",
-  "kuala lumpur": "MY.KualaLumpur",
-  "kualalumpur": "MY.KualaLumpur",
-  "kuwait": "KW.Kuwait",
-  "kyiv": "UA.Kyiv",
-  "la": "US.LosAngeles",
-  "la paz": "BO.LaPaz",
-  "lagos": "NG.Lagos",
-  "lapaz": "BO.LaPaz",
-  "las": "US.LasVegas",
-  "las vegas": "US.LasVegas",
-  "lasvegas": "US.LasVegas",
-  "lax": "US.LosAngeles",
-  "leeds": "GB.Leeds",
-  "leipzig": "DE.Leipzig",
-  "lhr": "GB.London",
-  "lilongwe": "MW.Lilongwe",
-  "lima": "PE.Lima",
-  "lisbon": "PT.Lisbon",
-  "liverpool": "GB.Liverpool",
-  "ljubljana": "SI.Ljubljana",
-  "lon": "GB.London",
-  "london": "GB.London",
-  "los angeles": "US.LosAngeles",
-  "losangeles": "US.LosAngeles",
-  "luanda": "AO.Luanda",
-  "lusaka": "ZM.Lusaka",
-  "madrid": "ES.Madrid",
-  "man": "GB.Manchester",
-  "manama": "BH.Manama",
-  "manchester": "GB.Manchester",
-  "manila": "PH.Manila",
-  "maputo": "MZ.Maputo",
-  "marseille": "FR.Marseille",
-  "melbourne": "AU.Melbourne",
-  "mexico city": "MX.MexicoCity",
-  "mexicocity": "MX.MexicoCity",
-  "mia": "US.Miami",
-  "miami": "US.Miami",
-  "milan": "IT.Milan",
-  "minsk": "BY.Minsk",
-  "montevideo": "UY.Montevideo",
-  "montreal": "CA.Montreal",
-  "moscow": "RU.Moscow",
-  "mow": "RU.Moscow",
-  "muc": "DE.Munich",
-  "mumbai": "IN.Mumbai",
-  "munich": "DE.Munich",
-  "muscat": "OM.Muscat",
-  "nagoya": "JP.Nagoya",
-  "nairobi": "KE.Nairobi",
-  "new york": "US.NewYork",
-  "newyork": "US.NewYork",
-  "nrt": "JP.Tokyo",
-  "nuremberg": "DE.Nuremberg",
-  "ny": "US.NewYork",
-  "nyc": "US.NewYork",
-  "ord": "US.Chicago",
-  "osa": "JP.Osaka",
-  "osaka": "JP.Osaka",
-  "oslo": "False.Oslo",
-  "panama": "PA.Panama",
-  "paris": "FR.Paris",
-  "pdx": "US.Portland",
-  "pek": "CN.Beijing",
-  "phnom penh": "KH.PhnomPenh",
-  "phnompenh": "KH.PhnomPenh",
-  "phoenix": "US.Phoenix",
-  "phx": "US.Phoenix",
-  "podgorica": "ME.Podgorica",
-  "port moresby": "PG.PortMoresby",
-  "port of spain": "TT.PortOfSpain",
-  "portland": "US.Portland",
-  "portmoresby": "PG.PortMoresby",
-  "portofspain": "TT.PortOfSpain",
-  "prague": "CZ.Prague",
-  "pristina": "XK.Pristina",
-  "pvg": "CN.Shanghai",
-  "quito": "EC.Quito",
-  "reykjavik": "IS.Reykjavik",
-  "riga": "LV.Riga",
-  "riyadh": "SA.Riyadh",
-  "rome": "IT.Rome",
-  "rotterdam": "NL.Rotterdam",
-  "san francisco": "US.SanFrancisco",
-  "san jose": "US.SanJose",
-  "sanaa": "YE.Sanaa",
-  "sanfrancisco": "US.SanFrancisco",
-  "sanjose": "US.SanJose",
-  "santiago": "CL.Santiago",
-  "santo domingo": "DO.SantoDomingo",
-  "santodomingo": "DO.SantoDomingo",
-  "sao paulo": "BR.SaoPaulo",
-  "saopaulo": "BR.SaoPaulo",
-  "sarajevo": "BA.Sarajevo",
-  "sea": "US.Seattle",
-  "seattle": "US.Seattle",
-  "sel": "KR.Seoul",
-  "seoul": "KR.Seoul",
-  "sf": "US.SanFrancisco",
-  "sfo": "US.SanFrancisco",
-  "sg": "SG.Singapore",
-  "sha": "CN.Shanghai",
-  "shanghai": "CN.Shanghai",
-  "sin": "SG.Singapore",
-  "singapore": "SG.Singapore",
-  "sj": "US.SanJose",
-  "sjc": "US.SanJose",
-  "skopje": "MK.Skopje",
-  "sofia": "BG.Sofia",
-  "st petersburg": "RU.StPetersburg",
-  "stockholm": "SE.Stockholm",
-  "stpetersburg": "RU.StPetersburg",
-  "stuttgart": "DE.Stuttgart",
-  "suva": "FJ.Suva",
-  "syd": "AU.Sydney",
-  "sydney": "AU.Sydney",
-  "taipei": "TW.Taipei",
-  "tallinn": "EE.Tallinn",
-  "tashkent": "UZ.Tashkent",
-  "tbilisi": "GE.Tbilisi",
-  "tehran": "IR.Tehran",
-  "tel aviv": "IL.TelAviv",
-  "telaviv": "IL.TelAviv",
-  "tirana": "AL.Tirana",
-  "tokyo": "JP.Tokyo",
-  "toronto": "CA.Toronto",
-  "tpe": "TW.Taipei",
-  "tunis": "TN.Tunis",
-  "tyo": "JP.Tokyo",
-  "ulaanbaatar": "MN.Ulaanbaatar",
-  "vancouver": "CA.Vancouver",
-  "vienna": "AT.Vienna",
-  "vientiane": "LA.Vientiane",
-  "vilnius": "LT.Vilnius",
-  "warsaw": "PL.Warsaw",
-  "washington": "US.Washington",
-  "windhoek": "NA.Windhoek",
-  "yangon": "MM.Yangon",
-  "yaounde": "CM.Yaounde",
-  "yerevan": "AM.Yerevan",
-  "yvr": "CA.Vancouver",
-  "yyz": "CA.Toronto",
-  "zagreb": "HR.Zagreb",
-  "zurich": "CH.Zurich",
-  "万象": "LA.Vientiane",
-  "上海": "CN.Shanghai",
-  "东京": "JP.Tokyo",
-  "中环": "HK.Central",
-  "丹佛": "US.Denver",
-  "乌兰巴托": "MN.Ulaanbaatar",
-  "九龙": "HK.Kowloon",
-  "亚松森": "PY.Asuncion",
-  "亚特兰大": "US.Atlanta",
-  "亚的斯亚贝巴": "ET.AddisAbaba",
-  "仰光": "MM.Yangon",
-  "伊斯坦布尔": "TR.Istanbul",
-  "伦敦": "GB.London",
-  "伯明翰": "GB.Birmingham",
-  "内罗毕": "KE.Nairobi",
-  "凤凰城": "US.Phoenix",
-  "利兹": "GB.Leeds",
-  "利物浦": "GB.Liverpool",
-  "利隆圭": "MW.Lilongwe",
-  "利雅得": "SA.Riyadh",
-  "利马": "PE.Lima",
-  "加德满都": "NP.Kathmandu",
-  "加拉加斯": "VE.Caracas",
-  "北京": "CN.Beijing",
-  "华沙": "PL.Warsaw",
-  "华盛顿": "US.Washington",
-  "卡拉奇": "PK.Karachi",
-  "卡萨布兰卡": "MA.Casablanca",
-  "卢布尔雅那": "SI.Ljubljana",
-  "卢萨卡": "ZM.Lusaka",
-  "危地马拉": "GT.Guatemala",
-  "台北": "TW.Taipei",
-  "吉隆坡": "MY.KualaLumpur",
-  "名古屋": "JP.Nagoya",
-  "哈博罗内": "BW.Gaborone",
-  "哈拉雷": "ZW.Harare",
-  "哈瓦那": "CU.Havana",
-  "哥本哈根": "DK.Copenhagen",
-  "圣何塞": "US.SanJose",
-  "圣保罗": "BR.SaoPaulo",
-  "圣地亚哥": "CL.Santiago",
-  "圣多明各": "DO.SantoDomingo",
-  "圣彼得堡": "RU.StPetersburg",
-  "地拉那": "AL.Tirana",
-  "坎帕拉": "UG.Kampala",
-  "埃里温": "AM.Yerevan",
-  "基多": "EC.Quito",
-  "基希讷乌": "MD.Chisinau",
-  "基辅": "UA.Kyiv",
-  "塔什干": "UZ.Tashkent",
-  "塔林": "EE.Tallinn",
-  "墨尔本": "AU.Melbourne",
-  "墨西哥城": "MX.MexicoCity",
-  "多伦多": "CA.Toronto",
-  "多哈": "QA.Doha",
-  "多特蒙德": "DE.Dortmund",
-  "大阪": "JP.Osaka",
-  "大马士革": "SY.Damascus",
-  "奥克兰": "NZ.Auckland",
-  "奥斯陆": "False.Oslo",
-  "孟买": "IN.Mumbai",
-  "安曼": "JO.Amman",
-  "巴塞罗那": "ES.Barcelona",
-  "巴库": "AZ.Baku",
-  "巴拿马": "PA.Panama",
-  "巴格达": "IQ.Baghdad",
-  "巴黎": "FR.Paris",
-  "布加勒斯特": "RO.Bucharest",
-  "布宜诺斯艾利斯": "AR.BuenosAires",
-  "布拉格": "CZ.Prague",
-  "布拉迪斯拉发": "SK.Bratislava",
-  "布达佩斯": "HU.Budapest",
-  "布里斯托": "GB.Bristol",
-  "布鲁塞尔": "BE.Brussels",
-  "广州": "CN.Guangzhou",
-  "开罗": "EG.Cairo",
-  "德里": "IN.Delhi",
-  "德黑兰": "IR.Tehran",
-  "悉尼": "AU.Sydney",
-  "慕尼黑": "DE.Munich",
-  "拉各斯": "NG.Lagos",
-  "拉巴斯": "BO.LaPaz",
-  "拉斯维加斯": "US.LasVegas",
-  "斯图加特": "DE.Stuttgart",
-  "斯德哥尔摩": "SE.Stockholm",
-  "斯科普里": "MK.Skopje",
-  "新加坡": "SG.Singapore",
-  "新竹": "TW.Hsinchu",
-  "旧金山": "US.SanFrancisco",
-  "明斯克": "BY.Minsk",
-  "普里什蒂纳": "XK.Pristina",
-  "曼彻斯特": "GB.Manchester",
-  "曼谷": "TH.Bangkok",
-  "杜塞尔多夫": "DE.Dusseldorf",
-  "杜尚别": "TJ.Dushanbe",
-  "柏林": "DE.Berlin",
-  "格拉斯哥": "GB.Glasgow",
-  "比什凯克": "KG.Bishkek",
-  "汉堡": "DE.Hamburg",
-  "河内": "VN.Hanoi",
-  "法兰克福": "DE.Frankfurt",
-  "波哥大": "CO.Bogota",
-  "波士顿": "US.Boston",
-  "波德戈里察": "ME.Podgorica",
-  "波特兰": "US.Portland",
-  "洛杉矶": "US.LosAngeles",
-  "温哥华": "CA.Vancouver",
-  "温得和克": "NA.Windhoek",
-  "爱丁堡": "GB.Edinburgh",
-  "特拉维夫": "IL.TelAviv",
-  "硅谷": "US.SanJose",
-  "福冈": "JP.Fukuoka",
-  "科伦坡": "LK.Colombo",
-  "科威特": "KW.Kuwait",
-  "科隆": "DE.Cologne",
-  "突尼斯": "TN.Tunis",
-  "第比利斯": "GE.Tbilisi",
-  "米兰": "IT.Milan",
-  "索非亚": "BG.Sofia",
-  "约翰内斯堡": "ZA.Johannesburg",
-  "纽伦堡": "DE.Nuremberg",
-  "纽约": "US.NewYork",
-  "维也纳": "AT.Vienna",
-  "维尔纽斯": "LT.Vilnius",
-  "罗安达": "AO.Luanda",
-  "罗马": "IT.Rome",
-  "芝加哥": "US.Chicago",
-  "苏瓦": "FJ.Suva",
-  "苏黎世": "CH.Zurich",
-  "莫尔兹比港": "PG.PortMoresby",
-  "莫斯科": "RU.Moscow",
-  "莱比锡": "DE.Leipzig",
-  "萨拉热窝": "BA.Sarajevo",
-  "萨格勒布": "HR.Zagreb",
-  "萨那": "YE.Sanaa",
-  "蒙得维的亚": "UY.Montevideo",
-  "蒙特利尔": "CA.Montreal",
-  "西班牙港": "TT.PortOfSpain",
-  "西雅图": "US.Seattle",
-  "贝尔格莱德": "RS.Belgrade",
-  "贝鲁特": "LB.Beirut",
-  "赫尔辛基": "FI.Helsinki",
-  "达卡": "BD.Dhaka",
-  "达喀尔": "SN.Dakar",
-  "达拉斯": "US.Dallas",
-  "达累斯萨拉姆": "TZ.DaresSalaam",
-  "迈阿密": "US.Miami",
-  "迪拜": "AE.Dubai",
-  "都柏林": "IE.Dublin",
-  "里加": "LV.Riga",
-  "里斯本": "PT.Lisbon",
-  "金斯敦": "JM.Kingston",
-  "金边": "KH.PhnomPenh",
-  "阿什哈巴德": "TM.Ashgabat",
-  "阿克拉": "GH.Accra",
-  "阿姆斯特丹": "NL.Amsterdam",
-  "阿尔及尔": "DZ.Algiers",
-  "阿拉木图": "KZ.Almaty",
-  "阿比让": "CI.Abidjan",
-  "雅典": "GR.Athens",
-  "雅加达": "ID.Jakarta",
-  "雅温得": "CM.Yaounde",
-  "雷克雅未克": "IS.Reykjavik",
-  "首尔": "KR.Seoul",
-  "马尼拉": "PH.Manila",
-  "马德里": "ES.Madrid",
-  "马斯喀特": "OM.Muscat",
-  "马普托": "MZ.Maputo",
-  "马赛": "FR.Marseille",
-  "鹿特丹": "NL.Rotterdam",
-  "麦纳麦": "BH.Manama"
+  "abidjan": [
+    "CI.Abidjan"
+  ],
+  "accra": [
+    "GH.Accra"
+  ],
+  "addis ababa": [
+    "ET.AddisAbaba"
+  ],
+  "addisababa": [
+    "ET.AddisAbaba"
+  ],
+  "algiers": [
+    "DZ.Algiers"
+  ],
+  "almaty": [
+    "KZ.Almaty"
+  ],
+  "amman": [
+    "JO.Amman"
+  ],
+  "ams": [
+    "NL.Amsterdam"
+  ],
+  "amsterdam": [
+    "NL.Amsterdam"
+  ],
+  "ashgabat": [
+    "TM.Ashgabat"
+  ],
+  "asuncion": [
+    "PY.Asuncion"
+  ],
+  "athens": [
+    "GR.Athens"
+  ],
+  "atl": [
+    "US.Atlanta"
+  ],
+  "atlanta": [
+    "US.Atlanta"
+  ],
+  "auckland": [
+    "NZ.Auckland"
+  ],
+  "baghdad": [
+    "IQ.Baghdad"
+  ],
+  "baku": [
+    "AZ.Baku"
+  ],
+  "bangkok": [
+    "TH.Bangkok"
+  ],
+  "barcelona": [
+    "ES.Barcelona"
+  ],
+  "beijing": [
+    "CN.Beijing"
+  ],
+  "beirut": [
+    "LB.Beirut"
+  ],
+  "belgrade": [
+    "RS.Belgrade"
+  ],
+  "ber": [
+    "DE.Berlin"
+  ],
+  "berlin": [
+    "DE.Berlin"
+  ],
+  "birmingham": [
+    "GB.Birmingham"
+  ],
+  "bishkek": [
+    "KG.Bishkek"
+  ],
+  "bjs": [
+    "CN.Beijing"
+  ],
+  "bkk": [
+    "TH.Bangkok"
+  ],
+  "bogota": [
+    "CO.Bogota"
+  ],
+  "bom": [
+    "IN.Mumbai"
+  ],
+  "bos": [
+    "US.Boston"
+  ],
+  "boston": [
+    "US.Boston"
+  ],
+  "bratislava": [
+    "SK.Bratislava"
+  ],
+  "bristol": [
+    "GB.Bristol"
+  ],
+  "brussels": [
+    "BE.Brussels"
+  ],
+  "bucharest": [
+    "RO.Bucharest"
+  ],
+  "budapest": [
+    "HU.Budapest"
+  ],
+  "buenos aires": [
+    "AR.BuenosAires"
+  ],
+  "buenosaires": [
+    "AR.BuenosAires"
+  ],
+  "cairo": [
+    "EG.Cairo"
+  ],
+  "can": [
+    "CN.Guangzhou"
+  ],
+  "caracas": [
+    "VE.Caracas"
+  ],
+  "casablanca": [
+    "MA.Casablanca"
+  ],
+  "cdg": [
+    "FR.Paris"
+  ],
+  "central": [
+    "HK.Central"
+  ],
+  "chicago": [
+    "US.Chicago"
+  ],
+  "chisinau": [
+    "MD.Chisinau"
+  ],
+  "cologne": [
+    "DE.Cologne"
+  ],
+  "colombo": [
+    "LK.Colombo"
+  ],
+  "copenhagen": [
+    "DK.Copenhagen"
+  ],
+  "dakar": [
+    "SN.Dakar"
+  ],
+  "dallas": [
+    "US.Dallas"
+  ],
+  "damascus": [
+    "SY.Damascus"
+  ],
+  "dar es salaam": [
+    "TZ.DaresSalaam"
+  ],
+  "daressalaam": [
+    "TZ.DaresSalaam"
+  ],
+  "dc": [
+    "US.Washington"
+  ],
+  "delhi": [
+    "IN.Delhi"
+  ],
+  "den": [
+    "US.Denver"
+  ],
+  "denver": [
+    "US.Denver"
+  ],
+  "dfw": [
+    "US.Dallas"
+  ],
+  "dhaka": [
+    "BD.Dhaka"
+  ],
+  "doha": [
+    "QA.Doha"
+  ],
+  "dortmund": [
+    "DE.Dortmund"
+  ],
+  "dubai": [
+    "AE.Dubai"
+  ],
+  "dublin": [
+    "IE.Dublin"
+  ],
+  "dushanbe": [
+    "TJ.Dushanbe"
+  ],
+  "dusseldorf": [
+    "DE.Dusseldorf"
+  ],
+  "dxb": [
+    "AE.Dubai"
+  ],
+  "edinburgh": [
+    "GB.Edinburgh"
+  ],
+  "fra": [
+    "DE.Frankfurt"
+  ],
+  "frankfurt": [
+    "DE.Frankfurt"
+  ],
+  "fukuoka": [
+    "JP.Fukuoka"
+  ],
+  "gaborone": [
+    "BW.Gaborone"
+  ],
+  "glasgow": [
+    "GB.Glasgow"
+  ],
+  "gru": [
+    "BR.SaoPaulo"
+  ],
+  "guangzhou": [
+    "CN.Guangzhou"
+  ],
+  "guatemala": [
+    "GT.Guatemala"
+  ],
+  "ham": [
+    "DE.Hamburg"
+  ],
+  "hamburg": [
+    "DE.Hamburg"
+  ],
+  "hanoi": [
+    "VN.Hanoi"
+  ],
+  "harare": [
+    "ZW.Harare"
+  ],
+  "havana": [
+    "CU.Havana"
+  ],
+  "helsinki": [
+    "FI.Helsinki"
+  ],
+  "hsinchu": [
+    "TW.Hsinchu"
+  ],
+  "iad": [
+    "US.Washington"
+  ],
+  "icn": [
+    "KR.Seoul"
+  ],
+  "ist": [
+    "TR.Istanbul"
+  ],
+  "istanbul": [
+    "TR.Istanbul"
+  ],
+  "jakarta": [
+    "ID.Jakarta"
+  ],
+  "jfk": [
+    "US.NewYork"
+  ],
+  "johannesburg": [
+    "ZA.Johannesburg"
+  ],
+  "kampala": [
+    "UG.Kampala"
+  ],
+  "karachi": [
+    "PK.Karachi"
+  ],
+  "kathmandu": [
+    "NP.Kathmandu"
+  ],
+  "kiev": [
+    "UA.Kyiv"
+  ],
+  "kingston": [
+    "JM.Kingston"
+  ],
+  "kix": [
+    "JP.Osaka"
+  ],
+  "kl": [
+    "MY.KualaLumpur"
+  ],
+  "kowloon": [
+    "HK.Kowloon"
+  ],
+  "kuala lumpur": [
+    "MY.KualaLumpur"
+  ],
+  "kualalumpur": [
+    "MY.KualaLumpur"
+  ],
+  "kuwait": [
+    "KW.Kuwait"
+  ],
+  "kyiv": [
+    "UA.Kyiv"
+  ],
+  "la": [
+    "US.LosAngeles"
+  ],
+  "la paz": [
+    "BO.LaPaz"
+  ],
+  "lagos": [
+    "NG.Lagos"
+  ],
+  "lapaz": [
+    "BO.LaPaz"
+  ],
+  "las": [
+    "US.LasVegas"
+  ],
+  "las vegas": [
+    "US.LasVegas"
+  ],
+  "lasvegas": [
+    "US.LasVegas"
+  ],
+  "lax": [
+    "US.LosAngeles"
+  ],
+  "leeds": [
+    "GB.Leeds"
+  ],
+  "leipzig": [
+    "DE.Leipzig"
+  ],
+  "lhr": [
+    "GB.London"
+  ],
+  "lilongwe": [
+    "MW.Lilongwe"
+  ],
+  "lima": [
+    "PE.Lima"
+  ],
+  "lisbon": [
+    "PT.Lisbon"
+  ],
+  "liverpool": [
+    "GB.Liverpool"
+  ],
+  "ljubljana": [
+    "SI.Ljubljana"
+  ],
+  "lon": [
+    "GB.London"
+  ],
+  "london": [
+    "GB.London"
+  ],
+  "los angeles": [
+    "US.LosAngeles"
+  ],
+  "losangeles": [
+    "US.LosAngeles"
+  ],
+  "luanda": [
+    "AO.Luanda"
+  ],
+  "lusaka": [
+    "ZM.Lusaka"
+  ],
+  "madrid": [
+    "ES.Madrid"
+  ],
+  "man": [
+    "GB.Manchester"
+  ],
+  "manama": [
+    "BH.Manama"
+  ],
+  "manchester": [
+    "GB.Manchester"
+  ],
+  "manila": [
+    "PH.Manila"
+  ],
+  "maputo": [
+    "MZ.Maputo"
+  ],
+  "marseille": [
+    "FR.Marseille"
+  ],
+  "melbourne": [
+    "AU.Melbourne"
+  ],
+  "mexico city": [
+    "MX.MexicoCity"
+  ],
+  "mexicocity": [
+    "MX.MexicoCity"
+  ],
+  "mia": [
+    "US.Miami"
+  ],
+  "miami": [
+    "US.Miami"
+  ],
+  "milan": [
+    "IT.Milan"
+  ],
+  "minsk": [
+    "BY.Minsk"
+  ],
+  "montevideo": [
+    "UY.Montevideo"
+  ],
+  "montreal": [
+    "CA.Montreal"
+  ],
+  "moscow": [
+    "RU.Moscow"
+  ],
+  "mow": [
+    "RU.Moscow"
+  ],
+  "muc": [
+    "DE.Munich"
+  ],
+  "mumbai": [
+    "IN.Mumbai"
+  ],
+  "munich": [
+    "DE.Munich"
+  ],
+  "muscat": [
+    "OM.Muscat"
+  ],
+  "nagoya": [
+    "JP.Nagoya"
+  ],
+  "nairobi": [
+    "KE.Nairobi"
+  ],
+  "new york": [
+    "US.NewYork"
+  ],
+  "newyork": [
+    "US.NewYork"
+  ],
+  "nrt": [
+    "JP.Tokyo"
+  ],
+  "nuremberg": [
+    "DE.Nuremberg"
+  ],
+  "ny": [
+    "US.NewYork"
+  ],
+  "nyc": [
+    "US.NewYork"
+  ],
+  "ord": [
+    "US.Chicago"
+  ],
+  "osa": [
+    "JP.Osaka"
+  ],
+  "osaka": [
+    "JP.Osaka"
+  ],
+  "oslo": [
+    "False.Oslo"
+  ],
+  "panama": [
+    "PA.Panama"
+  ],
+  "paris": [
+    "FR.Paris"
+  ],
+  "pdx": [
+    "US.Portland"
+  ],
+  "pek": [
+    "CN.Beijing"
+  ],
+  "phnom penh": [
+    "KH.PhnomPenh"
+  ],
+  "phnompenh": [
+    "KH.PhnomPenh"
+  ],
+  "phoenix": [
+    "US.Phoenix"
+  ],
+  "phx": [
+    "US.Phoenix"
+  ],
+  "podgorica": [
+    "ME.Podgorica"
+  ],
+  "port moresby": [
+    "PG.PortMoresby"
+  ],
+  "port of spain": [
+    "TT.PortOfSpain"
+  ],
+  "portland": [
+    "US.Portland"
+  ],
+  "portmoresby": [
+    "PG.PortMoresby"
+  ],
+  "portofspain": [
+    "TT.PortOfSpain"
+  ],
+  "prague": [
+    "CZ.Prague"
+  ],
+  "pristina": [
+    "XK.Pristina"
+  ],
+  "pvg": [
+    "CN.Shanghai"
+  ],
+  "quito": [
+    "EC.Quito"
+  ],
+  "reykjavik": [
+    "IS.Reykjavik"
+  ],
+  "riga": [
+    "LV.Riga"
+  ],
+  "riyadh": [
+    "SA.Riyadh"
+  ],
+  "rome": [
+    "IT.Rome"
+  ],
+  "rotterdam": [
+    "NL.Rotterdam"
+  ],
+  "san francisco": [
+    "US.SanFrancisco"
+  ],
+  "san jose": [
+    "CR.SanJose",
+    "US.SanJose"
+  ],
+  "sanaa": [
+    "YE.Sanaa"
+  ],
+  "sanfrancisco": [
+    "US.SanFrancisco"
+  ],
+  "sanjose": [
+    "CR.SanJose",
+    "US.SanJose"
+  ],
+  "santiago": [
+    "CL.Santiago"
+  ],
+  "santo domingo": [
+    "DO.SantoDomingo"
+  ],
+  "santodomingo": [
+    "DO.SantoDomingo"
+  ],
+  "sao paulo": [
+    "BR.SaoPaulo"
+  ],
+  "saopaulo": [
+    "BR.SaoPaulo"
+  ],
+  "sarajevo": [
+    "BA.Sarajevo"
+  ],
+  "sea": [
+    "US.Seattle"
+  ],
+  "seattle": [
+    "US.Seattle"
+  ],
+  "sel": [
+    "KR.Seoul"
+  ],
+  "seoul": [
+    "KR.Seoul"
+  ],
+  "sf": [
+    "US.SanFrancisco"
+  ],
+  "sfo": [
+    "US.SanFrancisco"
+  ],
+  "sg": [
+    "SG.Singapore"
+  ],
+  "sha": [
+    "CN.Shanghai"
+  ],
+  "shanghai": [
+    "CN.Shanghai"
+  ],
+  "sin": [
+    "SG.Singapore"
+  ],
+  "singapore": [
+    "SG.Singapore"
+  ],
+  "sj": [
+    "US.SanJose"
+  ],
+  "sjc": [
+    "US.SanJose"
+  ],
+  "skopje": [
+    "MK.Skopje"
+  ],
+  "sofia": [
+    "BG.Sofia"
+  ],
+  "st petersburg": [
+    "RU.StPetersburg"
+  ],
+  "stockholm": [
+    "SE.Stockholm"
+  ],
+  "stpetersburg": [
+    "RU.StPetersburg"
+  ],
+  "stuttgart": [
+    "DE.Stuttgart"
+  ],
+  "suva": [
+    "FJ.Suva"
+  ],
+  "syd": [
+    "AU.Sydney"
+  ],
+  "sydney": [
+    "AU.Sydney"
+  ],
+  "taipei": [
+    "TW.Taipei"
+  ],
+  "tallinn": [
+    "EE.Tallinn"
+  ],
+  "tashkent": [
+    "UZ.Tashkent"
+  ],
+  "tbilisi": [
+    "GE.Tbilisi"
+  ],
+  "tehran": [
+    "IR.Tehran"
+  ],
+  "tel aviv": [
+    "IL.TelAviv"
+  ],
+  "telaviv": [
+    "IL.TelAviv"
+  ],
+  "tirana": [
+    "AL.Tirana"
+  ],
+  "tokyo": [
+    "JP.Tokyo"
+  ],
+  "toronto": [
+    "CA.Toronto"
+  ],
+  "tpe": [
+    "TW.Taipei"
+  ],
+  "tunis": [
+    "TN.Tunis"
+  ],
+  "tyo": [
+    "JP.Tokyo"
+  ],
+  "ulaanbaatar": [
+    "MN.Ulaanbaatar"
+  ],
+  "vancouver": [
+    "CA.Vancouver"
+  ],
+  "vienna": [
+    "AT.Vienna"
+  ],
+  "vientiane": [
+    "LA.Vientiane"
+  ],
+  "vilnius": [
+    "LT.Vilnius"
+  ],
+  "warsaw": [
+    "PL.Warsaw"
+  ],
+  "washington": [
+    "US.Washington"
+  ],
+  "windhoek": [
+    "NA.Windhoek"
+  ],
+  "yangon": [
+    "MM.Yangon"
+  ],
+  "yaounde": [
+    "CM.Yaounde"
+  ],
+  "yerevan": [
+    "AM.Yerevan"
+  ],
+  "yvr": [
+    "CA.Vancouver"
+  ],
+  "yyz": [
+    "CA.Toronto"
+  ],
+  "zagreb": [
+    "HR.Zagreb"
+  ],
+  "zurich": [
+    "CH.Zurich"
+  ],
+  "万象": [
+    "LA.Vientiane"
+  ],
+  "上海": [
+    "CN.Shanghai"
+  ],
+  "东京": [
+    "JP.Tokyo"
+  ],
+  "中环": [
+    "HK.Central"
+  ],
+  "丹佛": [
+    "US.Denver"
+  ],
+  "乌兰巴托": [
+    "MN.Ulaanbaatar"
+  ],
+  "九龙": [
+    "HK.Kowloon"
+  ],
+  "亚松森": [
+    "PY.Asuncion"
+  ],
+  "亚特兰大": [
+    "US.Atlanta"
+  ],
+  "亚的斯亚贝巴": [
+    "ET.AddisAbaba"
+  ],
+  "仰光": [
+    "MM.Yangon"
+  ],
+  "伊斯坦布尔": [
+    "TR.Istanbul"
+  ],
+  "伦敦": [
+    "GB.London"
+  ],
+  "伯明翰": [
+    "GB.Birmingham"
+  ],
+  "内罗毕": [
+    "KE.Nairobi"
+  ],
+  "凤凰城": [
+    "US.Phoenix"
+  ],
+  "利兹": [
+    "GB.Leeds"
+  ],
+  "利物浦": [
+    "GB.Liverpool"
+  ],
+  "利隆圭": [
+    "MW.Lilongwe"
+  ],
+  "利雅得": [
+    "SA.Riyadh"
+  ],
+  "利马": [
+    "PE.Lima"
+  ],
+  "加德满都": [
+    "NP.Kathmandu"
+  ],
+  "加拉加斯": [
+    "VE.Caracas"
+  ],
+  "北京": [
+    "CN.Beijing"
+  ],
+  "华沙": [
+    "PL.Warsaw"
+  ],
+  "华盛顿": [
+    "US.Washington"
+  ],
+  "卡拉奇": [
+    "PK.Karachi"
+  ],
+  "卡萨布兰卡": [
+    "MA.Casablanca"
+  ],
+  "卢布尔雅那": [
+    "SI.Ljubljana"
+  ],
+  "卢萨卡": [
+    "ZM.Lusaka"
+  ],
+  "危地马拉": [
+    "GT.Guatemala"
+  ],
+  "台北": [
+    "TW.Taipei"
+  ],
+  "吉隆坡": [
+    "MY.KualaLumpur"
+  ],
+  "名古屋": [
+    "JP.Nagoya"
+  ],
+  "哈博罗内": [
+    "BW.Gaborone"
+  ],
+  "哈拉雷": [
+    "ZW.Harare"
+  ],
+  "哈瓦那": [
+    "CU.Havana"
+  ],
+  "哥本哈根": [
+    "DK.Copenhagen"
+  ],
+  "圣何塞": [
+    "CR.SanJose",
+    "US.SanJose"
+  ],
+  "圣保罗": [
+    "BR.SaoPaulo"
+  ],
+  "圣地亚哥": [
+    "CL.Santiago"
+  ],
+  "圣多明各": [
+    "DO.SantoDomingo"
+  ],
+  "圣彼得堡": [
+    "RU.StPetersburg"
+  ],
+  "地拉那": [
+    "AL.Tirana"
+  ],
+  "坎帕拉": [
+    "UG.Kampala"
+  ],
+  "埃里温": [
+    "AM.Yerevan"
+  ],
+  "基多": [
+    "EC.Quito"
+  ],
+  "基希讷乌": [
+    "MD.Chisinau"
+  ],
+  "基辅": [
+    "UA.Kyiv"
+  ],
+  "塔什干": [
+    "UZ.Tashkent"
+  ],
+  "塔林": [
+    "EE.Tallinn"
+  ],
+  "墨尔本": [
+    "AU.Melbourne"
+  ],
+  "墨西哥城": [
+    "MX.MexicoCity"
+  ],
+  "多伦多": [
+    "CA.Toronto"
+  ],
+  "多哈": [
+    "QA.Doha"
+  ],
+  "多特蒙德": [
+    "DE.Dortmund"
+  ],
+  "大阪": [
+    "JP.Osaka"
+  ],
+  "大马士革": [
+    "SY.Damascus"
+  ],
+  "奥克兰": [
+    "NZ.Auckland"
+  ],
+  "奥斯陆": [
+    "False.Oslo"
+  ],
+  "孟买": [
+    "IN.Mumbai"
+  ],
+  "安曼": [
+    "JO.Amman"
+  ],
+  "巴塞罗那": [
+    "ES.Barcelona"
+  ],
+  "巴库": [
+    "AZ.Baku"
+  ],
+  "巴拿马": [
+    "PA.Panama"
+  ],
+  "巴格达": [
+    "IQ.Baghdad"
+  ],
+  "巴黎": [
+    "FR.Paris"
+  ],
+  "布加勒斯特": [
+    "RO.Bucharest"
+  ],
+  "布宜诺斯艾利斯": [
+    "AR.BuenosAires"
+  ],
+  "布拉格": [
+    "CZ.Prague"
+  ],
+  "布拉迪斯拉发": [
+    "SK.Bratislava"
+  ],
+  "布达佩斯": [
+    "HU.Budapest"
+  ],
+  "布里斯托": [
+    "GB.Bristol"
+  ],
+  "布鲁塞尔": [
+    "BE.Brussels"
+  ],
+  "广州": [
+    "CN.Guangzhou"
+  ],
+  "开罗": [
+    "EG.Cairo"
+  ],
+  "德里": [
+    "IN.Delhi"
+  ],
+  "德黑兰": [
+    "IR.Tehran"
+  ],
+  "悉尼": [
+    "AU.Sydney"
+  ],
+  "慕尼黑": [
+    "DE.Munich"
+  ],
+  "拉各斯": [
+    "NG.Lagos"
+  ],
+  "拉巴斯": [
+    "BO.LaPaz"
+  ],
+  "拉斯维加斯": [
+    "US.LasVegas"
+  ],
+  "斯图加特": [
+    "DE.Stuttgart"
+  ],
+  "斯德哥尔摩": [
+    "SE.Stockholm"
+  ],
+  "斯科普里": [
+    "MK.Skopje"
+  ],
+  "新加坡": [
+    "SG.Singapore"
+  ],
+  "新竹": [
+    "TW.Hsinchu"
+  ],
+  "旧金山": [
+    "US.SanFrancisco"
+  ],
+  "明斯克": [
+    "BY.Minsk"
+  ],
+  "普里什蒂纳": [
+    "XK.Pristina"
+  ],
+  "曼彻斯特": [
+    "GB.Manchester"
+  ],
+  "曼谷": [
+    "TH.Bangkok"
+  ],
+  "杜塞尔多夫": [
+    "DE.Dusseldorf"
+  ],
+  "杜尚别": [
+    "TJ.Dushanbe"
+  ],
+  "柏林": [
+    "DE.Berlin"
+  ],
+  "格拉斯哥": [
+    "GB.Glasgow"
+  ],
+  "比什凯克": [
+    "KG.Bishkek"
+  ],
+  "汉堡": [
+    "DE.Hamburg"
+  ],
+  "河内": [
+    "VN.Hanoi"
+  ],
+  "法兰克福": [
+    "DE.Frankfurt"
+  ],
+  "波哥大": [
+    "CO.Bogota"
+  ],
+  "波士顿": [
+    "US.Boston"
+  ],
+  "波德戈里察": [
+    "ME.Podgorica"
+  ],
+  "波特兰": [
+    "US.Portland"
+  ],
+  "洛杉矶": [
+    "US.LosAngeles"
+  ],
+  "温哥华": [
+    "CA.Vancouver"
+  ],
+  "温得和克": [
+    "NA.Windhoek"
+  ],
+  "爱丁堡": [
+    "GB.Edinburgh"
+  ],
+  "特拉维夫": [
+    "IL.TelAviv"
+  ],
+  "硅谷": [
+    "US.SanJose"
+  ],
+  "福冈": [
+    "JP.Fukuoka"
+  ],
+  "科伦坡": [
+    "LK.Colombo"
+  ],
+  "科威特": [
+    "KW.Kuwait"
+  ],
+  "科隆": [
+    "DE.Cologne"
+  ],
+  "突尼斯": [
+    "TN.Tunis"
+  ],
+  "第比利斯": [
+    "GE.Tbilisi"
+  ],
+  "米兰": [
+    "IT.Milan"
+  ],
+  "索非亚": [
+    "BG.Sofia"
+  ],
+  "约翰内斯堡": [
+    "ZA.Johannesburg"
+  ],
+  "纽伦堡": [
+    "DE.Nuremberg"
+  ],
+  "纽约": [
+    "US.NewYork"
+  ],
+  "维也纳": [
+    "AT.Vienna"
+  ],
+  "维尔纽斯": [
+    "LT.Vilnius"
+  ],
+  "罗安达": [
+    "AO.Luanda"
+  ],
+  "罗马": [
+    "IT.Rome"
+  ],
+  "芝加哥": [
+    "US.Chicago"
+  ],
+  "苏瓦": [
+    "FJ.Suva"
+  ],
+  "苏黎世": [
+    "CH.Zurich"
+  ],
+  "莫尔兹比港": [
+    "PG.PortMoresby"
+  ],
+  "莫斯科": [
+    "RU.Moscow"
+  ],
+  "莱比锡": [
+    "DE.Leipzig"
+  ],
+  "萨拉热窝": [
+    "BA.Sarajevo"
+  ],
+  "萨格勒布": [
+    "HR.Zagreb"
+  ],
+  "萨那": [
+    "YE.Sanaa"
+  ],
+  "蒙得维的亚": [
+    "UY.Montevideo"
+  ],
+  "蒙特利尔": [
+    "CA.Montreal"
+  ],
+  "西班牙港": [
+    "TT.PortOfSpain"
+  ],
+  "西雅图": [
+    "US.Seattle"
+  ],
+  "贝尔格莱德": [
+    "RS.Belgrade"
+  ],
+  "贝鲁特": [
+    "LB.Beirut"
+  ],
+  "赫尔辛基": [
+    "FI.Helsinki"
+  ],
+  "达卡": [
+    "BD.Dhaka"
+  ],
+  "达喀尔": [
+    "SN.Dakar"
+  ],
+  "达拉斯": [
+    "US.Dallas"
+  ],
+  "达累斯萨拉姆": [
+    "TZ.DaresSalaam"
+  ],
+  "迈阿密": [
+    "US.Miami"
+  ],
+  "迪拜": [
+    "AE.Dubai"
+  ],
+  "都柏林": [
+    "IE.Dublin"
+  ],
+  "里加": [
+    "LV.Riga"
+  ],
+  "里斯本": [
+    "PT.Lisbon"
+  ],
+  "金斯敦": [
+    "JM.Kingston"
+  ],
+  "金边": [
+    "KH.PhnomPenh"
+  ],
+  "阿什哈巴德": [
+    "TM.Ashgabat"
+  ],
+  "阿克拉": [
+    "GH.Accra"
+  ],
+  "阿姆斯特丹": [
+    "NL.Amsterdam"
+  ],
+  "阿尔及尔": [
+    "DZ.Algiers"
+  ],
+  "阿拉木图": [
+    "KZ.Almaty"
+  ],
+  "阿比让": [
+    "CI.Abidjan"
+  ],
+  "雅典": [
+    "GR.Athens"
+  ],
+  "雅加达": [
+    "ID.Jakarta"
+  ],
+  "雅温得": [
+    "CM.Yaounde"
+  ],
+  "雷克雅未克": [
+    "IS.Reykjavik"
+  ],
+  "首尔": [
+    "KR.Seoul"
+  ],
+  "马尼拉": [
+    "PH.Manila"
+  ],
+  "马德里": [
+    "ES.Madrid"
+  ],
+  "马斯喀特": [
+    "OM.Muscat"
+  ],
+  "马普托": [
+    "MZ.Maputo"
+  ],
+  "马赛": [
+    "FR.Marseille"
+  ],
+  "鹿特丹": [
+    "NL.Rotterdam"
+  ],
+  "麦纳麦": [
+    "BH.Manama"
+  ]
 }

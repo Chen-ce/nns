@@ -64,7 +64,12 @@ def main() -> int:
     conn_json = generated_dir / "keywords_connectors.json"
     ret3 = build_keyword_file(conn_yaml, conn_json)
     
-    return ret1 or ret2 or ret3
+    # Return immediately on first error
+    if ret1 != 0:
+        return ret1
+    if ret2 != 0:
+        return ret2
+    return ret3
 
 
 if __name__ == "__main__":

@@ -7,11 +7,7 @@ import json
 import sys
 from pathlib import Path
 
-
-def compact_alias(text: str) -> str:
-    """Remove all non-alphanumeric characters and convert to lowercase."""
-    import re
-    return re.sub(r"[^a-z0-9]+", "", text.lower())
+from utils import compact_alias
 
 
 def main() -> int:
